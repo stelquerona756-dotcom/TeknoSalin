@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TEKNOSALIN | Filipino Electronics Dictionary</title>
+
+    <link rel="stylesheet" href="css/dictionary.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo-area">
+
+        <h1>TEKNOSALIN</h1>
+
+        <p>Web-Based Filipino Electronics Dictionary</p>
+
+    </div>
+
+</header>
+
+<section class="search-wrapper">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="🔍 Search electronics term..."
+        autocomplete="off">
+
+</section>
+
+<main class="dictionary">
+
+    <!-- =========================
+            SIDEBAR
+    ========================== -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar-header">
+
+            <h2>Terms</h2>
+
+            <span id="termCount">0 Terms</span>
+
+        </div>
+
+        <ul id="termList">
+
+        </ul>
+
+    </aside>
+
+
+
+    <!-- =========================
+            CONTENT
+    ========================== -->
+
+    <section class="content">
+
+        <div class="term-header">
+
+            <div>
+
+                <h1 id="englishTerm">
+
+                    Select a Term
+
+                </h1>
+
+                <h2 id="filipinoTerm">
+
+                </h2>
+
+            </div>
+
+            <div class="difficulty" id="difficulty">
+
+                —
+
+            </div>
+
+        </div>
+
+
+
+        <div class="info-grid">
+
+            <div class="info-card">
+
+                <span>Category</span>
+
+                <p id="category">
+
+                    —
+
+                </p>
+
+            </div>
+
+            <div class="info-card">
+
+                <span>Symbol</span>
+
+                <p id="symbol">
+
+                    —
+
+                </p>
+
+            </div>
+
+            <div class="info-card">
+
+                <span>Formula</span>
+
+                <p id="formula">
+
+                    —
+
+                </p>
+
+            </div>
+
+            <div class="info-card">
+
+                <span>Unit</span>
+
+                <p id="unit">
+
+                    —
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <section class="content-card">
+
+            <h3>
+
+                Definition
+
+            </h3>
+
+            <p id="definition">
+
+                Select a term from the left panel to begin.
+
+            </p>
+
+        </section>
+
+
+
+        <section class="content-card">
+
+            <h3>
+
+                Example
+
+            </h3>
+
+            <p id="example">
+
+                —
+
+            </p>
+
+        </section>
+
+
+
+        <section class="content-card">
+
+            <h3>
+
+                Related Terms
+
+            </h3>
+
+            <div id="related" class="related-container">
+                                <!-- Related terms buttons will be generated here -->
+
+            </div>
+
+        </section>
+
+
+        <section class="content-card">
+
+            <h3>
+
+                Did You Know?
+
+            </h3>
+
+            <p id="didYouKnow">
+
+                —
+
+            </p>
+
+        </section>
+
+    </section>
+
+</main>
+
+
+
+<footer class="footer">
+
+    <p>
+
+        © 2026 TEKNOSALIN • Web-Based Filipino Electronics Dictionary
+
+    </p>
+
+</footer>
+
+
+
+<script src="js/dictionary.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,2995 @@
+[
+  {
+    "id": 1,
+    "filipino": "Komparator",
+    "english": "Comparator",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang elektronikong sirkito na naghahambing ng dalawang boltahe at nagbibigay ng HIGH o LOW na output batay sa kung alin ang mas mataas.",
+    "example": "Ginagamit ang comparator sa mga sensor circuit upang matukoy kung lumampas na sa itinakdang boltahe ang input.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang comparator ang pangunahing bahagi ng maraming analog-to-digital conversion at protection circuits.",
+    "related": [
+      "Operational Amplifier (Op-Amp)",
+      "Voltage",
+      "Analog Signal",
+      "ADC"
+    ]
+  },
+  {
+    "id": 2,
+    "filipino": "Operational Amplifier (Op-Amp)",
+    "english": "Operational Amplifier (Op-Amp)",
+    "abbreviation": "Op-Amp",
+    "category": "Active Components",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang integrated circuit na nagpapalakas ng signal at ginagamit sa iba't ibang analog electronic circuits tulad ng amplifier, filter, comparator, at oscillator.",
+    "example": "Ang LM741 ay isang kilalang operational amplifier na ginagamit sa laboratory experiments.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang operational amplifier ay isa sa pinakamadalas gamitin na integrated circuit sa analog electronics.",
+    "related": [
+      "Amplifier",
+      "Comparator",
+      "Filter",
+      "Oscillator"
+    ]
+  },
+  {
+    "id": 3,
+    "filipino": "Regulator ng Boltahe",
+    "english": "Voltage Regulator",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "",
+    "formula": "",
+    "unit": "Volt (V)",
+    "definition": "Aparatong nagpapanatili ng matatag na boltahe kahit nagbabago ang input voltage o load.",
+    "example": "Gumamit ng 7805 voltage regulator upang makakuha ng matatag na 5 V para sa Arduino.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Maraming microcontroller circuits ang nangangailangan ng regulated power supply upang gumana nang maayos.",
+    "related": [
+      "Voltage",
+      "Power Supply",
+      "Battery",
+      "Arduino"
+    ]
+  },
+  {
+    "id": 4,
+    "filipino": "Multiplexer",
+    "english": "Multiplexer (MUX)",
+    "abbreviation": "MUX",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Digital circuit na pumipili ng isa sa maraming input at ipinapadala ito sa iisang output.",
+    "example": "Ginagamit ang multiplexer sa data selection ng digital communication systems.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Nababawasan ng multiplexer ang dami ng kinakailangang communication lines sa isang digital system.",
+    "related": [
+      "Demultiplexer",
+      "Logic Gate",
+      "Binary",
+      "Signal"
+    ]
+  },
+  {
+    "id": 5,
+    "filipino": "Demultiplexer",
+    "english": "Demultiplexer (DEMUX)",
+    "abbreviation": "DEMUX",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Digital circuit na tumatanggap ng isang input at ipinapadala ito sa napiling output.",
+    "example": "Ginagamit ang demultiplexer sa data distribution at communication systems.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang demultiplexer ay kabaligtaran ng multiplexer at kadalasang magkasamang ginagamit.",
+    "related": [
+      "Multiplexer",
+      "Logic Gate",
+      "Binary",
+      "Decoder"
+    ]
+  },
+  {
+    "id": 6,
+    "filipino": "Attenuator",
+    "english": "Attenuator",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "ATT",
+    "formula": "Attenuation (dB)",
+    "unit": "Decibel (dB)",
+    "definition": "Isang aparatong nagpapababa ng lakas ng isang senyas nang hindi binabago ang hugis o impormasyong taglay nito.",
+    "example": "Gumamit ng attenuator upang mabawasan ang lakas ng RF signal bago ito sukatin.",
+    "difficulty": "Intermediate",
+    "didYouKnow": "Karaniwang ginagamit ang attenuator sa RF at communication systems upang maprotektahan ang mga sensitibong instrumento sa pagsukat.",
+    "related": [
+      "Amplifier",
+      "Gain",
+      "Radio Frequency",
+      "Signal"
+    ]
+  },
+  {
+    "id": 7,
+    "filipino": "Encoder",
+    "english": "Encoder",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Digital circuit na nagsasalin ng maraming input patungo sa mas kaunting binary output.",
+    "example": "Ginagamit ang encoder sa keyboard encoding at digital communication systems.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang encoder ay nakatutulong sa pagbawas ng bilang ng output lines sa mga digital circuit.",
+    "related": [
+      "Decoder",
+      "Binary",
+      "Logic Gate",
+      "Multiplexer"
+    ]
+  },
+  {
+    "id": 8,
+    "english": "Current",
+    "filipino": "Agos ng Kuryente",
+    "category": "Batayang Konsepto",
+    "definition": "Ang pagdaloy ng mga electric charge sa isang konduktor o sirkito. Ito ay sinusukat sa ampere (A).",
+    "example": "Ang kasalukuyang dumadaloy sa resistor ay 2 amperes.",
+    "related": [
+      "Voltage",
+      "Resistance",
+      "Ohm"
+   ]
+  },
+  {
+    "id": 9,
+    "filipino": "Decoder",
+    "english": "Decoder",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Digital circuit na nagsasalin ng binary input patungo sa isa o higit pang natatanging output.",
+    "example": "Ginagamit ang decoder sa seven-segment displays at memory address decoding.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang decoder ay mahalagang bahagi ng memory addressing at display driver circuits.",
+    "related": [
+      "Encoder",
+      "Binary",
+      "Logic Gate",
+      "Demultiplexer"
+    ]
+  },
+  {
+    "id": 10,
+    "filipino": "Buzzer",
+    "english": "Buzzer",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "BZ",
+    "formula": "N/A",
+    "unit": "Decibel (dB)",
+    "definition": "Isang elektronikong sangkap na lumilikha ng tunog bilang babala, indikasyon, o senyas sa isang sistema.",
+    "example": "Tumunog ang buzzer nang matagumpay na maipadala ang Morse code.",
+    "difficulty": "Basic",
+    "didYouKnow": "May dalawang pangunahing uri ng buzzer: active at passive. Ang active buzzer ay tutunog agad kapag nilagyan ng tamang boltahe.",
+    "related": [
+      "Speaker",
+      "Arduino",
+      "Alarm",
+      "Output Device"
+    ]
+  },
+  {
+    "id": 11,
+    "filipino": "Transistor",
+    "english": "Transistor",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "Q",
+    "formula": "N/A",
+    "unit": "N/A",
+    "definition": "Isang semiconductor device na ginagamit bilang switch o amplifier upang makontrol ang daloy ng kuryente sa isang elektronikong sirkito.",
+    "example": "Ginagamit ang transistor sa mga amplifier at digital circuits.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang pag-imbento ng transistor noong 1947 ay nagbigay-daan sa pagbuo ng makabagong electronics at computers.",
+    "related": [
+      "BJT",
+      "MOSFET",
+      "Amplifier",
+      "Semiconductor"
+    ]
+  },
+  {
+    "id": 12,
+    "filipino": "LED",
+    "english": "Light-Emitting Diode",
+    "abbreviation": "LED",
+    "category": "Active Components",
+    "symbol": "LED",
+    "formula": "N/A",
+    "unit": "Candela (cd)",
+    "definition": "Isang uri ng diode na naglalabas ng liwanag kapag dinadaluyan ng tamang kuryente.",
+    "example": "Ginagamit ang LED bilang indicator light sa maraming elektronikong aparato.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Mas matipid sa enerhiya at mas matagal ang buhay ng LED kaysa sa karaniwang incandescent bulb.",
+    "related": [
+      "Diode",
+      "Current",
+      "Voltage",
+      "Resistor"
+    ]
+  },
+  {
+    "id": 13,
+    "filipino": "Baterya",
+    "english": "Battery",
+    "abbreviation": "BAT",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "",
+    "unit": "Volt (V)",
+    "definition": "Pinagmumulan ng elektrikal na enerhiya na nag-iimbak ng enerhiyang kemikal at ginagawang elektrisidad upang mapagana ang mga elektronikong kagamitan at sirkito.",
+    "example": "Ang 9 V na baterya ay karaniwang ginagamit sa mga breadboard at Arduino projects.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang baterya ay maaaring primary (hindi nare-recharge) o secondary (rechargeable), depende sa uri ng kemikal na ginagamit nito.",
+    "related": [
+      "Voltage",
+      "Current",
+      "Power Supply",
+      "Circuit"
+    ]
+  },
+  {
+    "id": 14,
+    "filipino": "Konduktor",
+    "english": "Conductor",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "N/A",
+    "formula": "N/A",
+    "unit": "Siemens bawat metro (S/m)",
+    "definition": "Materyal na madaling padaluyan ng elektrikal na kuryente dahil mababa ang resistansiya nito.",
+    "example": "Ang tanso ay isa sa mga pinakaginagamit na konduktor sa mga kawad ng kuryente.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang pilak ang may pinakamataas na electrical conductivity sa lahat ng metal, ngunit mas karaniwang ginagamit ang tanso dahil mas mura ito.",
+    "related": [
+      "Copper",
+      "Current",
+      "Resistance",
+      "Insulator"
+    ]
+  },
+  {
+    "id": 15,
+    "filipino": "Insulator",
+    "english": "Insulator",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "N/A",
+    "formula": "N/A",
+    "unit": "N/A",
+    "definition": "Materyal na humahadlang o lubhang nagpapahirap sa pagdaloy ng elektrikal na kuryente.",
+    "example": "Ang plastik na balot ng kawad ay nagsisilbing insulator upang maiwasan ang aksidenteng pagkakuryente.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ginagamit ang mga insulator upang maprotektahan ang tao at kagamitan laban sa electrical shock.",
+    "related": [
+      "Conductor",
+      "Resistance",
+      "Safety",
+      "Material"
+    ]
+  },
+  {
+    "id": 16,
+    "filipino": "Amplifier",
+    "english": "Amplifier",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "AMP",
+    "formula": "Gain = Output / Input",
+    "unit": "Decibel (dB)",
+    "definition": "Elektronikong sirkito o aparato na nagpapalakas ng boltahe, kuryente, o kapangyarihan ng isang senyas nang hindi binabago ang pangunahing impormasyon nito.",
+    "example": "Gumagamit ang sound system ng amplifier upang palakasin ang audio signal.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang operational amplifier o op-amp ay isa sa pinakaginagamit na integrated circuits sa analog electronics.",
+    "related": [
+      "Gain",
+      "Signal",
+      "Operational Amplifier",
+      "Transistor"
+    ]
+  },
+  {
+    "id": 17,
+    "filipino": "Dalas",
+    "english": "Frequency",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "f",
+    "formula": "f = 1 / T",
+    "unit": "Hertz (Hz)",
+    "definition": "Bilang ng pag-ulit o cycle ng isang senyas sa loob ng isang segundo.",
+    "example": "Ang suplay ng kuryente sa Pilipinas ay may dalas na 60 Hz.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Mas mataas na frequency ang nangangahulugang mas maraming cycle ang nangyayari bawat segundo.",
+    "related": [
+      "Hertz",
+      "Period",
+      "Signal",
+      "Waveform"
+    ]
+  },
+  {
+    "id": 18,
+    "filipino": "Senyas",
+    "english": "Signal",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "N/A",
+    "formula": "N/A",
+    "unit": "Depende sa uri ng senyas",
+    "definition": "Impormasyon na ipinapadala o kinakatawan ng isang boltahe, kuryente, o electromagnetic wave sa loob ng isang sistema.",
+    "example": "Ang audio signal mula sa mikropono ay ipinadala sa amplifier.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Maaaring analog o digital ang isang senyas depende sa paraan ng pagrepresenta ng impormasyon.",
+    "related": [
+      "Analog Signal",
+      "Digital Signal",
+      "Frequency",
+      "Waveform"
+    ]
+  },
+  {
+    "id": 19,
+    "filipino": "Hertz",
+    "english": "Hertz",
+    "abbreviation": "Hz",
+    "category": "Batayang Konsepto",
+    "symbol": "Hz",
+    "formula": "1 Hz = 1 cycle/s",
+    "unit": "Hertz (Hz)",
+    "definition": "Pamantayang yunit ng dalas na katumbas ng isang cycle bawat segundo.",
+    "example": "Ang 1 kHz ay katumbas ng 1,000 Hz.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang yunit na Hertz ay ipinangalan kay Heinrich Hertz dahil sa kaniyang ambag sa pag-aaral ng electromagnetic waves.",
+    "related": [
+      "Frequency",
+      "Period",
+      "Waveform",
+      "Signal"
+    ]
+  },
+  {
+    "id": 20,
+    "filipino": "Osilador",
+    "english": "Oscillator",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "OSC",
+    "formula": "f = 1 / T",
+    "unit": "Hertz (Hz)",
+    "definition": "Elektronikong sirkito na lumilikha ng tuloy-tuloy at paulit-ulit na waveform nang hindi nangangailangan ng panlabas na input signal.",
+    "example": "Ang crystal oscillator ang nagbibigay ng clock signal sa isang microcontroller.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Halos lahat ng digital devices ay gumagamit ng oscillator upang mapanatiling magkakasabay ang operasyon ng kanilang mga bahagi.",
+    "related": [
+      "Waveform",
+      "Frequency",
+      "Crystal Oscillator",
+      "Clock Signal"
+    ]
+  }, 
+  {
+    "id": 21,
+    "filipino": "Antena",
+    "english": "Antenna",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "ANT",
+    "formula": "N/A",
+    "unit": "dBi",
+    "definition": "Isang kagamitang ginagamit upang magpadala o tumanggap ng mga electromagnetic wave sa mga sistemang pangkomunikasyon.",
+    "example": "Ang Wi-Fi router ay gumagamit ng antena upang makapagpadala at makatanggap ng wireless signal.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Maaaring gamitin ang isang antena para sa parehong pagpapadala at pagtanggap ng signal depende sa disenyo nito.",
+    "related": [
+      "Radio Frequency",
+      "Signal",
+      "Receiver",
+      "Transmitter"
+    ]
+  },
+  {
+    "id": 22,
+    "filipino": "Modulasyon",
+    "english": "Modulation",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "N/A",
+    "formula": "N/A",
+    "unit": "N/A",
+    "definition": "Proseso ng pagbabago sa katangian ng carrier signal upang maipadala ang impormasyon sa isang communication system.",
+    "example": "Ginagamit ang frequency modulation o FM sa radyo upang maipadala ang audio signal.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang AM at FM ang dalawa sa pinakakaraniwang uri ng modulation sa radio communication.",
+    "related": [
+      "Carrier Signal",
+      "Demodulation",
+      "Signal",
+      "Communication"
+    ]
+  },
+  {
+    "id": 23,
+    "filipino": "Demodulasyon",
+    "english": "Demodulation",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "N/A",
+    "formula": "N/A",
+    "unit": "N/A",
+    "definition": "Proseso ng pagkuha ng orihinal na impormasyon mula sa isang modulated signal sa receiver.",
+    "example": "Isinasagawa ng FM receiver ang demodulation upang marinig ang tunog mula sa istasyon ng radyo.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang demodulation ang kabaligtaran ng modulation sa isang communication system.",
+    "related": [
+      "Modulation",
+      "Receiver",
+      "Signal",
+      "Carrier Signal"
+    ]
+  },
+  {
+    "id": 24,
+    "filipino": "Transmitter",
+    "english": "Transmitter",
+    "abbreviation": "TX",
+    "category": "Communication",
+    "symbol": "TX",
+    "formula": "N/A",
+    "unit": "Watt (W)",
+    "definition": "Aparatong nagpapadala ng impormasyon sa pamamagitan ng pagbuo at pagpapadala ng electromagnetic signal.",
+    "example": "Ang radio transmitter ang nagpapadala ng signal patungo sa mga tumatanggap na antena.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Karamihan sa mga transmitter ay gumagamit ng antenna upang maipadala ang signal sa malalayong distansya.",
+    "related": [
+      "Receiver",
+      "Antenna",
+      "Radio Frequency",
+      "Signal"
+    ]
+  },
+  {
+    "id": 25,
+    "filipino": "Receiver",
+    "english": "Receiver",
+    "abbreviation": "RX",
+    "category": "Communication",
+    "symbol": "RX",
+    "formula": "N/A",
+    "unit": "N/A",
+    "definition": "Aparatong tumatanggap at nagpoproseso ng signal upang maibalik ang impormasyong ipinadala ng transmitter.",
+    "example": "Ang FM receiver ay tumatanggap ng radio signal at ginagawang audio output.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Sa wireless communication, magkasamang gumagana ang transmitter at receiver upang makapagpalitan ng impormasyon.",
+    "related": [
+      "Transmitter",
+      "Antenna",
+      "Signal",
+      "Demodulation"
+    ]
+  },
+  {
+    "id": 26,
+    "filipino": "Mikrokontroler",
+    "english": "Microcontroller",
+    "abbreviation": "MCU",
+    "category": "Digital Electronics",
+    "symbol": "MCU",
+    "formula": "N/A",
+    "unit": "MHz",
+    "definition": "Isang maliit na kompyuter sa loob ng iisang integrated circuit na ginagamit upang kontrolin ang operasyon ng mga elektronikong sistema.",
+    "example": "Ang Arduino Uno ay gumagamit ng ATmega328P microcontroller.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Karaniwang may kasamang CPU, memory, at input/output ports ang isang microcontroller sa iisang chip.",
+    "related": [
+      "Arduino",
+      "Processor",
+      "Embedded System",
+      "GPIO"
+    ]
+  },
+  {
+    "id": 27,
+    "filipino": "Arduino",
+    "english": "Arduino",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "N/A",
+    "formula": "N/A",
+    "unit": "N/A",
+    "definition": "Isang open-source development platform na gumagamit ng microcontroller upang makabuo ng iba't ibang elektronikong proyekto at automation systems.",
+    "example": "Gumamit ang grupo ng Arduino Uno sa kanilang Morse Code Translator.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Dahil open-source ang Arduino, libo-libong library at proyekto ang maaaring gamitin ng mga nagsisimula at propesyonal.",
+    "related": [
+      "Microcontroller",
+      "Programming",
+      "Sensor",
+      "Embedded System"
+    ]
+  },
+  {
+    "id": 28,
+    "filipino": "Sensor",
+    "english": "Sensor",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "N/A",
+    "formula": "N/A",
+    "unit": "Depende sa uri ng sensor",
+    "definition": "Isang elektronikong sangkap na nakakakita o sumusukat ng pisikal na pagbabago at ginagawang electrical signal ang impormasyong ito.",
+    "example": "Ginamit ang temperature sensor upang sukatin ang temperatura ng kapaligiran.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "May iba't ibang uri ng sensor gaya ng temperature, light, pressure, at motion sensor.",
+    "related": [
+      "Arduino",
+      "Microcontroller",
+      "Input",
+      "Measurement"
+    ]
+  },
+  {
+    "id": 29,
+    "filipino": "Relay",
+    "english": "Relay",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "K",
+    "formula": "N/A",
+    "unit": "Volt (V)",
+    "definition": "Isang electrically operated switch na gumagamit ng electromagnet upang kontrolin ang pagbukas at pagsara ng isang sirkito.",
+    "example": "Ginagamit ang relay upang makontrol ang high-voltage load gamit ang mababang boltahe mula sa microcontroller.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Nagbibigay ang relay ng electrical isolation sa pagitan ng control circuit at ng load circuit.",
+    "related": [
+      "Switch",
+      "Electromagnet",
+      "Control",
+      "Microcontroller"
+    ]
+  },
+  {
+    "id": 30,
+    "filipino": "Switch",
+    "english": "Switch",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "SW",
+    "formula": "N/A",
+    "unit": "N/A",
+    "definition": "Isang elektronikong bahagi na ginagamit upang buksan o isara ang daloy ng kuryente sa isang sirkito.",
+    "example": "Pinindot ang switch upang paandarin ang LED circuit.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "May iba't ibang uri ng switch tulad ng SPST, SPDT, push button, toggle, at rocker switch.",
+    "related": [
+      "Relay",
+      "Circuit",
+      "Current",
+      "Control"
+    ]
+  },
+  {
+    "id": 31,
+    "filipino": "Ground",
+    "english": "Ground",
+    "abbreviation": "GND",
+    "category": "Batayang Konsepto",
+    "symbol": "GND",
+    "formula": "",
+    "unit": "",
+    "definition": "Ang ground ang nagsisilbing karaniwang reference point ng boltahe sa isang elektronikong sirkito at karaniwang daanan ng balik na daloy ng kuryente.",
+    "example": "Ikonekta ang negatibong terminal ng power supply sa GND ng circuit.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Hindi lahat ng ground ay direktang nakakonekta sa lupa; sa maraming electronic circuit, reference point lamang ito.",
+    "related": [
+      "Voltage",
+      "Current",
+      "Circuit",
+      "Power Supply"
+    ]
+  },
+  {
+    "id": 32,
+    "filipino": "Node",
+    "english": "Node",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Punto sa isang elektronikong sirkito kung saan nagtatagpo ang dalawa o higit pang koneksyon ng mga bahagi.",
+    "example": "Ginagamit ang node analysis upang matukoy ang boltahe sa iba't ibang bahagi ng circuit.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mahalaga ang konsepto ng node sa pag-aaral ng Kirchhoff's Current Law (KCL).",
+    "related": [
+      "Circuit",
+      "Connection",
+      "Kirchhoff's Current Law",
+      "Voltage"
+    ]
+  },
+  {
+    "id": 33,
+    "filipino": "Seryeng Sirkito",
+    "english": "Series Circuit",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "RT = R1 + R2 + ...",
+    "unit": "Ohm (Ω)",
+    "definition": "Uri ng sirkito kung saan iisa lamang ang dinaraanan ng kuryente sa lahat ng bahagi.",
+    "example": "Ang lumang Christmas lights ay karaniwang halimbawa ng seryeng sirkito.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Kapag naputol ang isang bahagi sa seryeng sirkito, hihinto ang pagdaloy ng kuryente sa buong circuit.",
+    "related": [
+      "Parallel Circuit",
+      "Current",
+      "Resistance",
+      "Ohm's Law"
+    ]
+  },
+  {
+    "id": 34,
+    "filipino": "Parallel na Sirkito",
+    "english": "Parallel Circuit",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "1/RT = 1/R1 + 1/R2 + ...",
+    "unit": "Ohm (Ω)",
+    "definition": "Uri ng sirkito na may dalawa o higit pang magkakahiwalay na daanan ng kuryente.",
+    "example": "Karamihan sa mga electrical wiring sa bahay ay parallel na sirkito.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Sa parallel circuit, nananatiling pareho ang boltahe sa bawat sangay ng circuit.",
+    "related": [
+      "Series Circuit",
+      "Voltage",
+      "Current",
+      "Resistance"
+    ]
+  },
+  {
+    "id": 35,
+    "filipino": "Frequency Response",
+    "english": "Frequency Response",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "Decibel (dB)",
+    "definition": "Ipinapakita nito kung paano nagbabago ang output ng isang sistema habang nagbabago ang frequency ng input signal.",
+    "example": "Sinuri ang frequency response ng amplifier gamit ang oscilloscope at signal generator.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Karaniwang ipinapakita ang frequency response gamit ang Bode plot.",
+    "related": [
+      "Bandwidth",
+      "Gain",
+      "Filter",
+      "Bode Plot"
+    ]
+  },
+  {
+    "id": 36,
+    "filipino": "Bandwidth",
+    "english": "Bandwidth",
+    "abbreviation": "BW",
+    "category": "Communication",
+    "symbol": "BW",
+    "formula": "BW = fH − fL",
+    "unit": "Hertz (Hz)",
+    "definition": "Saklaw ng mga frequency na kayang ipasa o gamitin ng isang elektronikong sistema o communication channel.",
+    "example": "Mas malawak na bandwidth ang nagbibigay-daan sa mas maraming datos na maipadala.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang bandwidth ay mahalaga sa disenyo ng mga filter, amplifier, at communication systems.",
+    "related": [
+      "Frequency",
+      "Filter",
+      "Signal",
+      "Frequency Response"
+    ]
+  },
+  {
+    "id": 37,
+    "filipino": "Filter",
+    "english": "Filter",
+    "abbreviation": "",
+    "category": "Passive Components",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Elektronikong sirkito na nagpapadaan o humaharang sa mga signal batay sa kanilang frequency.",
+    "example": "Ang low-pass filter ay nagpapadaan lamang ng mabababang frequency.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "May apat na pangunahing uri ng filter: low-pass, high-pass, band-pass, at band-stop.",
+    "related": [
+      "Low-pass Filter",
+      "High-pass Filter",
+      "Band-pass Filter",
+      "Bandwidth"
+    ]
+  },
+  {
+    "id": 38,
+    "filipino": "Osiloskopo",
+    "english": "Oscilloscope",
+    "abbreviation": "DSO",
+    "category": "Instruments",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Instrumentong ginagamit upang makita at masukat ang anyo ng waveform ng isang electrical signal sa paglipas ng panahon.",
+    "example": "Ginamit ang osiloskopo upang obserbahan ang waveform ng output signal.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang oscilloscope ay isa sa pinakamahalagang instrumento sa electronics laboratory.",
+    "related": [
+      "Waveform",
+      "Signal",
+      "Measurement",
+      "Frequency"
+    ]
+  },
+  {
+    "id": 39,
+    "filipino": "Multimeter",
+    "english": "Multimeter",
+    "abbreviation": "DMM",
+    "category": "Instruments",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Instrumentong ginagamit upang sukatin ang boltahe, kuryente, resistansiya, at iba pang electrical quantities.",
+    "example": "Sinukat ang boltahe ng baterya gamit ang digital multimeter.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang modernong digital multimeter ay maaari ring sumukat ng continuity, capacitance, frequency, at diode test.",
+    "related": [
+      "Voltage",
+      "Current",
+      "Resistance",
+      "Measurement"
+    ]
+  },
+  {
+    "id": 40,
+    "filipino": "Printed Circuit Board",
+    "english": "Printed Circuit Board",
+    "abbreviation": "PCB",
+    "category": "Digital Electronics",
+    "symbol": "PCB",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang board na naglalaman ng mga conductive pathway kung saan ikinakabit at pinagdurugtong ang iba't ibang elektronikong bahagi upang makabuo ng isang sirkito.",
+    "example": "Ang motherboard ng isang computer ay isang halimbawa ng printed circuit board.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Bago gamitin ang PCB, karaniwang sinusubukan muna ang circuit sa breadboard upang matiyak na tama ang disenyo.",
+    "related": [
+      "Breadboard",
+      "Electronic Components",
+      "Circuit",
+      "Soldering"
+    ]
+  },
+  {
+    "id": 41,
+    "filipino": "Paghihinang",
+    "english": "Soldering",
+    "abbreviation": "",
+    "category": "Instruments",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Proseso ng pagdurugtong ng dalawa o higit pang elektronikong bahagi gamit ang tinunaw na solder upang makabuo ng matibay na electrical connection.",
+    "example": "Isinagawa ang paghihinang ng mga resistor at capacitor sa PCB.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang tamang temperatura ng soldering iron ay mahalaga upang maiwasan ang pagkasira ng PCB at electronic components.",
+    "related": [
+      "PCB",
+      "Solder",
+      "Electronic Components",
+      "Connection"
+    ]
+  },
+  {
+    "id": 42,
+    "filipino": "Semikondaktor",
+    "english": "Semiconductor",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Materyal na may kakayahang magpadaloy ng kuryente sa limitadong antas. Ang conductivity nito ay nasa pagitan ng konduktor at insulator.",
+    "example": "Ang silikon ang pinakakaraniwang semikondaktor na ginagamit sa paggawa ng integrated circuits.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Halos lahat ng modernong elektronikong kagamitan ay gumagamit ng mga semiconductor devices.",
+    "related": [
+      "Silicon",
+      "Diode",
+      "Transistor",
+      "Integrated Circuit"
+    ]
+  },
+  {
+    "id": 43,
+    "filipino": "Silikon",
+    "english": "Silicon",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "Si",
+    "formula": "Si",
+    "unit": "",
+    "definition": "Elemento na pangunahing ginagamit bilang base material sa paggawa ng mga semiconductor devices at integrated circuits.",
+    "example": "Ang microprocessor ay binubuo ng milyun-milyong transistor na gawa sa silikon.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Tinatawag na 'Silicon Valley' ang kilalang sentro ng teknolohiya sa California dahil sa kahalagahan ng silikon sa electronics industry.",
+    "related": [
+      "Semiconductor",
+      "Integrated Circuit",
+      "Transistor",
+      "Chip"
+    ]
+  },
+  {
+    "id": 44,
+    "filipino": "Gain",
+    "english": "Gain",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "A",
+    "formula": "Gain = Output / Input",
+    "unit": "Decibel (dB) o ratio",
+    "definition": "Sukat ng pagpapalakas ng isang signal ng isang amplifier o elektronikong sistema.",
+    "example": "Mas mataas na gain ang nagreresulta sa mas malakas na output signal.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Maaaring ipahayag ang gain bilang simpleng ratio o sa yunit na decibel.",
+    "related": [
+      "Amplifier",
+      "Decibel",
+      "Signal",
+      "Frequency Response"
+    ]
+  },
+  {
+    "id": 45,
+    "filipino": "Desibel",
+    "english": "Decibel",
+    "abbreviation": "dB",
+    "category": "Communication",
+    "symbol": "dB",
+    "formula": "dB = 10 log₁₀(P₂/P₁)",
+    "unit": "Decibel (dB)",
+    "definition": "Yunit na ginagamit upang ipahayag ang antas o pagbabago ng lakas ng signal, kapangyarihan, o gain sa isang elektronikong sistema.",
+    "example": "May gain na 20 dB ang amplifier.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Malawakang ginagamit ang decibel sa electronics, audio engineering, at communication systems.",
+    "related": [
+      "Gain",
+      "Signal",
+      "Amplifier",
+      "Power"
+    ]
+  },
+  {
+    "id": 46,
+    "filipino": "Logic Gate",
+    "english": "Logic Gate",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Pangunahing digital circuit na nagsasagawa ng mga lohikal na operasyon batay sa isa o higit pang input upang makabuo ng output.",
+    "example": "Ang AND gate ay maglalabas lamang ng HIGH kapag HIGH ang lahat ng input nito.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang lahat ng digital computer ay binubuo ng milyun-milyong logic gates.",
+    "related": [
+      "Boolean Algebra",
+      "Binary",
+      "AND Gate",
+      "OR Gate"
+    ]
+  },
+  {
+    "id": 47,
+    "filipino": "Binary",
+    "english": "Binary",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Sistema ng pagbibilang na gumagamit lamang ng dalawang halaga: 0 at 1. Ito ang batayan ng digital electronics at computing.",
+    "example": "Ang bilang na 13 sa decimal ay 1101 sa binary.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Lahat ng datos sa computer ay kinakatawan gamit ang binary digits o bits.",
+    "related": [
+      "Bit",
+      "Byte",
+      "Digital",
+      "Logic Gate"
+    ]
+  },
+  {
+    "id": 48,
+    "filipino": "Bit",
+    "english": "Bit",
+    "abbreviation": "b",
+    "category": "Digital Electronics",
+    "symbol": "b",
+    "formula": "",
+    "unit": "Bit",
+    "definition": "Pinakamaliit na yunit ng digital na impormasyon na maaaring magkaroon ng halagang 0 o 1.",
+    "example": "Ang isang switch ay maaaring kumatawan sa isang bit ng impormasyon.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang salitang 'bit' ay mula sa 'binary digit'.",
+    "related": [
+      "Binary",
+      "Byte",
+      "Data",
+      "Logic Gate"
+    ]
+  },
+  {
+    "id": 49,
+    "filipino": "Byte",
+    "english": "Byte",
+    "abbreviation": "B",
+    "category": "Digital Electronics",
+    "symbol": "B",
+    "formula": "1 Byte = 8 bits",
+    "unit": "Byte",
+    "definition": "Yunit ng digital na datos na binubuo ng walong bits.",
+    "example": "Ang isang ASCII character ay karaniwang gumagamit ng isang byte ng memorya.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang mga kapasidad ng memorya at storage ay karaniwang sinusukat sa bytes, kilobytes, megabytes, at gigabytes.",
+    "related": [
+      "Bit",
+      "Binary",
+      "Memory",
+      "Data"
+    ]
+  },
+  {
+    "id": 50,
+    "filipino": "IC",
+    "english": "Integrated Circuit",
+    "abbreviation": "IC",
+    "category": "Active Components",
+    "symbol": "U",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang elektronikong chip na naglalaman ng maraming magkakaugnay na electronic components tulad ng mga transistor, resistor, at capacitor sa loob ng iisang semiconductor substrate.",
+    "example": "Ang NE555 timer ay isang kilalang integrated circuit na ginagamit sa maraming electronic projects.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang isang modernong microprocessor ay maaaring maglaman ng bilyun-bilyong transistor sa iisang integrated circuit.",
+    "related": [
+      "Semiconductor",
+      "Silicon",
+      "Transistor",
+      "Microcontroller"
+    ]
+  },
+  {
+    "id": 51,
+    "filipino": "Salit-salit na Kuryente",
+    "english": "Alternating Current",
+    "abbreviation": "AC",
+    "category": "Batayang Konsepto",
+    "symbol": "AC",
+    "formula": "",
+    "unit": "Ampere (A)",
+    "definition": "Uri ng elektrikal na kuryente na pana-panahong nagbabago ng direksiyon at halaga habang dumadaloy sa isang sirkito.",
+    "example": "Ang suplay ng kuryente sa mga tahanan sa Pilipinas ay gumagamit ng alternating current.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Sa Pilipinas, ang karaniwang AC supply ay may boltahe na 230 V at frequency na 60 Hz.",
+    "related": [
+      "Direct Current",
+      "Frequency",
+      "Voltage",
+      "Transformer"
+    ]
+  },
+  {
+    "id": 52,
+    "filipino": "Tuwirang Kuryente",
+    "english": "Direct Current",
+    "abbreviation": "DC",
+    "category": "Batayang Konsepto",
+    "symbol": "DC",
+    "formula": "",
+    "unit": "Ampere (A)",
+    "definition": "Uri ng elektrikal na kuryente na dumadaloy sa iisang direksiyon lamang.",
+    "example": "Ang baterya ay nagbibigay ng tuwirang kuryente upang paganahin ang mga elektronikong aparato.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Halos lahat ng electronic circuits ay gumagamit ng direct current bilang pangunahing pinagkukunan ng enerhiya.",
+    "related": [
+      "Alternating Current",
+      "Battery",
+      "Voltage",
+      "Power Supply"
+    ]
+  },
+  {
+    "id": 53,
+    "filipino": "Transpormador",
+    "english": "Transformer",
+    "abbreviation": "",
+    "category": "Passive Components",
+    "symbol": "T",
+    "formula": "Vp/Vs = Np/Ns",
+    "unit": "Volt (V)",
+    "definition": "Kagamitang elektrikal na ginagamit upang pataasin o pababain ang boltahe ng alternating current sa pamamagitan ng electromagnetic induction.",
+    "example": "Ginagamit ang transformer sa mga linya ng distribusyon ng kuryente upang baguhin ang antas ng boltahe.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Hindi gumagana ang karaniwang transformer sa direct current dahil kailangan nito ng nagbabagong magnetic field.",
+    "related": [
+      "Voltage",
+      "Coil",
+      "Alternating Current",
+      "Electromagnetic Induction"
+    ]
+  },
+  {
+    "id": 54,
+    "filipino": "Rectifier",
+    "english": "Rectifier",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Elektronikong sirkito o aparato na nagko-convert ng alternating current tungo sa direct current.",
+    "example": "Gumagamit ang power supply ng bridge rectifier upang makagawa ng DC output.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang pinakakaraniwang rectifier ay gumagamit ng apat na diode na tinatawag na bridge rectifier.",
+    "related": [
+      "Diode",
+      "Direct Current",
+      "Alternating Current",
+      "Power Supply"
+    ]
+  },
+  {
+    "id": 55,
+    "filipino": "Piyus",
+    "english": "Fuse",
+    "abbreviation": "",
+    "category": "Passive Components",
+    "symbol": "F",
+    "formula": "",
+    "unit": "Ampere (A)",
+    "definition": "Kagamitang pangkaligtasan na pumuputol sa daloy ng kuryente kapag lumampas ito sa itinakdang antas.",
+    "example": "Naputol ang piyus nang magkaroon ng sobrang kuryente sa circuit.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Kapag naputol ang fuse, kailangan itong palitan bago muling gumana ang circuit.",
+    "related": [
+      "Circuit Breaker",
+      "Current",
+      "Protection",
+      "Short Circuit"
+    ]
+  },
+  {
+    "id": 56,
+    "filipino": "Circuit Breaker",
+    "english": "Circuit Breaker",
+    "abbreviation": "CB",
+    "category": "Passive Components",
+    "symbol": "CB",
+    "formula": "",
+    "unit": "Ampere (A)",
+    "definition": "Awtomatikong kagamitang pangkaligtasan na pumuputol sa daloy ng kuryente kapag may overload o short circuit.",
+    "example": "Nag-trip ang circuit breaker upang maiwasan ang pagkasira ng electrical wiring.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Hindi tulad ng fuse, maaaring i-reset ang karamihan sa mga circuit breaker matapos maalis ang problema.",
+    "related": [
+      "Fuse",
+      "Protection",
+      "Overload",
+      "Short Circuit"
+    ]
+  },
+  {
+    "id": 57,
+    "filipino": "Maikling Sirkito",
+    "english": "Short Circuit",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Hindi inaasahang direktang koneksyon na nagdudulot ng napakalaking daloy ng kuryente dahil sa napakababang resistansiya.",
+    "example": "Nagkaroon ng maikling sirkito matapos magdikit ang dalawang hubad na kawad.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang short circuit ang isa sa pangunahing sanhi ng sunog na may kaugnayan sa kuryente.",
+    "related": [
+      "Circuit Breaker",
+      "Fuse",
+      "Current",
+      "Overload"
+    ]
+  },
+  {
+    "id": 58,
+    "filipino": "Bukas na Sirkito",
+    "english": "Open Circuit",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Kalagayan ng isang sirkito kung saan putol ang daanan ng kuryente kaya walang dumadaloy na current.",
+    "example": "Hindi umilaw ang LED dahil bukas ang sirkito.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Kapag naka-OFF ang switch, karaniwang nagiging open circuit ang isang simpleng electrical circuit.",
+    "related": [
+      "Closed Circuit",
+      "Switch",
+      "Current",
+      "Circuit"
+    ]
+  },
+  {
+    "id": 59,
+    "filipino": "Saradong Sirkito",
+    "english": "Closed Circuit",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Kalagayan ng isang sirkito kung saan kumpleto ang daanan ng kuryente kaya malayang dumadaloy ang current.",
+    "example": "Umiilaw ang LED kapag sarado ang sirkito.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Kailangan munang maging closed circuit bago gumana ang karamihan sa mga electrical device.",
+    "related": [
+      "Open Circuit",
+      "Current",
+      "Switch",
+      "Circuit"
+    ]
+  },
+  {
+    "id": 60,
+    "filipino": "Karga",
+    "english": "Load",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "P = VI",
+    "unit": "Watt (W)",
+    "definition": "Bahagi ng isang electrical o electronic circuit na kumokonsumo ng elektrikal na enerhiya upang magsagawa ng isang gawain.",
+    "example": "Ang de-koryenteng motor ang nagsisilbing load ng sistemang ito.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Maaaring maging resistive, inductive, o capacitive ang isang electrical load depende sa katangian nito.",
+    "related": [
+      "Power",
+      "Voltage",
+      "Current",
+      "Resistance"
+    ]
+  },
+  {
+    "id": 61,
+    "filipino": "Henerator",
+    "english": "Generator",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "G",
+    "formula": "",
+    "unit": "Watt (W)",
+    "definition": "Makinang nagko-convert ng mekanikal na enerhiya tungo sa elektrikal na enerhiya sa pamamagitan ng electromagnetic induction.",
+    "example": "Ginagamit ang backup generator kapag nawalan ng suplay ng kuryente.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Parehong gumagamit ng electromagnetic induction ang generator at transformer, ngunit magkaiba ang kanilang layunin.",
+    "related": [
+      "Alternator",
+      "Motor",
+      "Electromagnetic Induction",
+      "Energy"
+    ]
+  },
+  {
+    "id": 62,
+    "filipino": "Motor",
+    "english": "Motor",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "M",
+    "formula": "",
+    "unit": "Watt (W)",
+    "definition": "Kagamitang nagko-convert ng elektrikal na enerhiya tungo sa mekanikal na galaw.",
+    "example": "Ang electric fan ay gumagamit ng motor upang paikutin ang mga talim nito.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Kabaligtaran ng generator ang pangunahing tungkulin ng motor.",
+    "related": [
+      "Generator",
+      "Rotor",
+      "Stator",
+      "Mechanical Energy"
+    ]
+  },
+  {
+    "id": 63,
+    "filipino": "Rotor",
+    "english": "Rotor",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Umiikot na bahagi ng isang motor o generator na lumilikha o tumatanggap ng puwersang elektromagnetiko.",
+    "example": "Patuloy na umiikot ang rotor habang umaandar ang motor.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Hindi lahat ng rotor ay may permanent magnet; ang iba ay gumagamit ng electromagnetic field.",
+    "related": [
+      "Stator",
+      "Motor",
+      "Generator",
+      "Magnetic Field"
+    ]
+  },
+  {
+    "id": 64,
+    "filipino": "Stator",
+    "english": "Stator",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Hindi umiikot na bahagi ng motor o generator na karaniwang naglalaman ng mga winding o coil.",
+    "example": "Ang stator ang lumilikha ng magnetic field sa maraming uri ng electric motor.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Magkasamang gumagana ang rotor at stator upang makabuo ng pag-ikot sa electric motor.",
+    "related": [
+      "Rotor",
+      "Motor",
+      "Coil",
+      "Magnetic Field"
+    ]
+  },
+  {
+    "id": 65,
+    "filipino": "Elektromagnet",
+    "english": "Electromagnet",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Magnet na nalilikha kapag dumadaloy ang elektrikal na kuryente sa isang konduktor o coil.",
+    "example": "Ang relay ay gumagamit ng elektromagnet upang ilipat ang mga contact nito.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Nawawala ang magnetic field ng electromagnet kapag tumigil ang pagdaloy ng kuryente.",
+    "related": [
+      "Magnetic Field",
+      "Coil",
+      "Relay",
+      "Current"
+    ]
+  },
+  {
+    "id": 66,
+    "filipino": "Magnetikong Larangan",
+    "english": "Magnetic Field",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "B",
+    "formula": "",
+    "unit": "Tesla (T)",
+    "definition": "Rehiyon sa paligid ng magnet o konduktor na dinadaluyan ng kuryente kung saan umiiral ang puwersang magnetiko.",
+    "example": "Lumilikha ng magnetic field ang coil kapag dinadaluyan ito ng current.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang magnetic field ang dahilan kung bakit umiikot ang mga electric motor.",
+    "related": [
+      "Electromagnet",
+      "Flux",
+      "Tesla",
+      "Current"
+    ]
+  },
+  {
+    "id": 67,
+    "filipino": "Fluks",
+    "english": "Flux",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "Φ",
+    "formula": "Φ = BA",
+    "unit": "Weber (Wb)",
+    "definition": "Sukat ng kabuuang magnetic field na dumaraan sa isang tiyak na lugar o surface.",
+    "example": "Tumataas ang magnetic flux kapag lumalakas ang magnetic field.",
+    "difficulty": "Mataas",
+    "didYouKnow": "Ang pagbabago ng magnetic flux ang batayan ng Faraday's Law of Electromagnetic Induction.",
+    "related": [
+      "Magnetic Field",
+      "Core",
+      "Faraday's Law",
+      "Electromagnetic Induction"
+    ]
+  },
+  {
+    "id": 68,
+    "filipino": "Core",
+    "english": "Core",
+    "abbreviation": "",
+    "category": "Passive Components",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Bahagi ng transformer, inductor, o electromagnet na nagsisilbing daanan at tagapokus ng magnetic flux.",
+    "example": "Karaniwang gumagamit ng iron core ang mga power transformer.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang paggamit ng ferromagnetic core ay nagpapataas ng kahusayan ng transformer at inductor.",
+    "related": [
+      "Flux",
+      "Transformer",
+      "Inductor",
+      "Magnetic Field"
+    ]
+  },
+  {
+    "id": 69,
+    "filipino": "Impedansiya",
+    "english": "Impedance",
+    "abbreviation": "Z",
+    "category": "Batayang Konsepto",
+    "symbol": "Z",
+    "formula": "Z = R + jX",
+    "unit": "Ohm (Ω)",
+    "definition": "Kabuuang pagsalungat ng isang circuit sa daloy ng alternating current, na binubuo ng resistansiya at reaktansiya.",
+    "example": "Mas mataas na impedance ang naglilimita sa pagdaloy ng AC current.",
+    "difficulty": "Mataas",
+    "didYouKnow": "Sa direct current, ang impedance ay katumbas lamang ng resistansiya.",
+    "related": [
+      "Resistance",
+      "Reactance",
+      "Alternating Current",
+      "Ohm"
+    ]
+  },
+  {
+    "id": 70,
+    "filipino": "Reaktansiya",
+    "english": "Reactance",
+    "abbreviation": "X",
+    "category": "Batayang Konsepto",
+    "symbol": "X",
+    "formula": "XL = 2πfL, XC = 1/(2πfC)",
+    "unit": "Ohm (Ω)",
+    "definition": "Bahagi ng impedance na dulot ng capacitor o inductor at sumasalungat sa pagdaloy ng alternating current.",
+    "example": "Habang tumataas ang frequency, tumataas ang inductive reactance.",
+    "difficulty": "Mataas",
+    "didYouKnow": "May dalawang uri ng reactance: inductive reactance at capacitive reactance.",
+    "related": [
+      "Impedance",
+      "Capacitor",
+      "Inductor",
+      "Frequency"
+    ]
+  },
+  {
+    "id": 71,
+    "filipino": "Kapasitansiya",
+    "english": "Capacitance",
+    "abbreviation": "",
+    "category": "Passive Components",
+    "symbol": "C",
+    "formula": "C = Q/V",
+    "unit": "Farad (F)",
+    "definition": "Ang kapasitansiya ay ang kakayahan ng isang capacitor na mag-imbak ng elektrikal na karga sa pagitan ng dalawang konduktor kapag may inilapat na boltahe.",
+    "example": "Ang 100 µF capacitor ay may mataas na kapasitansiya kaya mas maraming charge ang kaya nitong maimbak.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Habang tumataas ang halaga ng capacitance, mas maraming elektrikal na charge ang maaaring maimbak ng capacitor sa parehong boltahe.",
+    "related": [
+      "Capacitor",
+      "Charge",
+      "Voltage",
+      "Farad"
+    ]
+  },
+  {
+    "id": 72,
+    "filipino": "Induktansiya",
+    "english": "Inductance",
+    "abbreviation": "",
+    "category": "Passive Components",
+    "symbol": "L",
+    "formula": "VL = L(di/dt)",
+    "unit": "Henry (H)",
+    "definition": "Ang induktansiya ay ang kakayahan ng isang inductor na lumikha ng magnetic field at salungatin ang biglaang pagbabago ng daloy ng kuryente.",
+    "example": "Ang 10 mH inductor ay ginagamit sa mga filter circuit upang mabawasan ang electrical noise.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas mataas ang inductance, mas malaki ang kakayahan ng inductor na pigilan ang mabilis na pagbabago ng current.",
+    "related": [
+      "Inductor",
+      "Magnetic Flux",
+      "Current",
+      "Henry"
+    ]
+  },
+  {
+    "id": 73,
+    "filipino": "Anyo ng Alon",
+    "english": "Waveform",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Ang anyo ng alon ay ang hugis o pagbabago ng isang electrical signal habang lumilipas ang oras.",
+    "example": "Sinuri ang waveform ng amplifier gamit ang oscilloscope upang makita kung may distortion.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Magkakaiba ang waveform ng analog at digital signals, kaya mahalaga ito sa pagsusuri ng mga electronic circuit.",
+    "related": [
+      "Signal",
+      "Oscilloscope",
+      "Frequency",
+      "Amplitude"
+    ]
+  },
+  {
+    "id": 74,
+    "filipino": "Alon Sine",
+    "english": "Sine Wave",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "~",
+    "formula": "v(t) = Vm sin(ωt)",
+    "unit": "",
+    "definition": "Ang alon sine ay isang tuloy-tuloy at makinis na waveform na karaniwang ginagamit sa alternating current (AC) at communication systems.",
+    "example": "Ang boltahe mula sa power outlet ay karaniwang nasa anyo ng sine wave.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Halos lahat ng AC power systems sa buong mundo ay gumagamit ng sine wave dahil mas mahusay itong maipadala sa malalayong distansya.",
+    "related": [
+      "Waveform",
+      "Alternating Current",
+      "Frequency",
+      "Amplitude"
+    ]
+  },
+  {
+    "id": 75,
+    "filipino": "Parisukat na Alon",
+    "english": "Square Wave",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "▔▁",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang waveform na salit-salit na lumilipat sa mataas at mababang antas ng boltahe sa halos pare-parehong pagitan ng oras.",
+    "example": "Ang square wave ang karaniwang output ng digital clock signal sa mga microcontroller.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang square wave ay binubuo ng maraming odd harmonics ng isang sine wave.",
+    "related": [
+      "Waveform",
+      "Clock Signal",
+      "Digital Signal",
+      "Pulse"
+    ]
+  },
+  {
+    "id": 76,
+    "filipino": "Pulso",
+    "english": "Pulse",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang maikling pagbabago ng antas ng signal na ginagamit upang maghatid ng impormasyon o magsagawa ng kontrol sa isang electronic system.",
+    "example": "Nagpadala ang sensor ng pulse upang ipahiwatig na may nadetect itong bagay.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Maraming digital communication systems ang gumagamit ng pulse bilang batayang paraan ng pagpapadala ng impormasyon.",
+    "related": [
+      "Square Wave",
+      "Signal",
+      "Clock Signal",
+      "Pulse Width"
+    ]
+  },
+  {
+    "id": 77,
+    "filipino": "Clock Signal",
+    "english": "Clock Signal",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "Hertz (Hz)",
+    "definition": "Isang paulit-ulit na digital signal na nagsisilbing batayan ng tiyempo upang maisabay ang operasyon ng mga digital circuit.",
+    "example": "Gumagamit ang Arduino Uno ng 16 MHz clock signal upang patakbuhin ang microcontroller.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas mataas na clock frequency ang karaniwang nagbibigay-daan sa mas mabilis na pagproseso ng mga digital system.",
+    "related": [
+      "Oscillator",
+      "Frequency",
+      "Microcontroller",
+      "Square Wave"
+    ]
+  },
+  {
+    "id": 78,
+    "filipino": "Mikroprosesor",
+    "english": "Microprocessor",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang integrated circuit na nagsasagawa ng mga operasyon sa pagpoproseso ng datos at pagpapatupad ng mga utos ng programa.",
+    "example": "Ang desktop computer ay gumagamit ng microprocessor upang iproseso ang lahat ng mga kalkulasyon at utos.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang modernong microprocessor ay maaaring maglaman ng bilyun-bilyong transistor sa isang chip.",
+    "related": [
+      "CPU",
+      "Integrated Circuit",
+      "Microcontroller",
+      "Memory"
+    ]
+  },
+  {
+    "id": 79,
+    "filipino": "Memoriya",
+    "english": "Memory",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "Byte (B)",
+    "definition": "Bahagi ng isang electronic system na ginagamit upang mag-imbak ng datos at mga programang kinakailangan sa pagproseso.",
+    "example": "Nagdagdag ng RAM upang mapabilis ang pagpapatakbo ng computer.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "May iba't ibang uri ng memory tulad ng RAM, ROM, Flash Memory, at Cache Memory na may magkakaibang gamit.",
+    "related": [
+      "RAM",
+      "ROM",
+      "Flash Memory",
+      "Storage"
+    ]
+  },
+  {
+    "id": 80,
+    "filipino": "ROM",
+    "english": "Read-Only Memory",
+    "abbreviation": "ROM",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "Byte (B)",
+    "definition": "Isang uri ng memory na permanenteng naglalaman ng datos o firmware at hindi madaling mabago habang ginagamit ang sistema.",
+    "example": "Nakaimbak sa ROM ang firmware na ginagamit sa pag-boot ng microcontroller.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Kahit mawalan ng suplay ng kuryente, nananatili ang laman ng ROM dahil isa itong non-volatile memory.",
+    "related": [
+      "Memory",
+      "RAM",
+      "Flash Memory",
+      "Firmware"
+    ]
+  }, 
+  {
+    "id": 81,
+    "filipino": "RAM",
+    "english": "Random Access Memory",
+    "abbreviation": "RAM",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "Byte (B)",
+    "definition": "Isang uri ng memory na pansamantalang nag-iimbak ng datos at mga programang kasalukuyang ginagamit ng processor. Nabubura ang laman nito kapag nawalan ng suplay ng kuryente.",
+    "example": "Ginagamit ng microcontroller ang RAM upang pansamantalang iimbak ang mga variable habang tumatakbo ang programa.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Mas maraming RAM ang karaniwang nagbibigay-daan sa mas maayos na multitasking at mas mabilis na pagproseso ng sistema.",
+    "related": [
+      "Memory",
+      "ROM",
+      "CPU",
+      "EEPROM"
+    ]
+  },
+  {
+    "id": 82,
+    "filipino": "EEPROM",
+    "english": "Electrically Erasable Programmable Read-Only Memory",
+    "abbreviation": "EEPROM",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "Byte (B)",
+    "definition": "Isang non-volatile memory na maaaring burahin at isulat muli gamit ang elektrikal na proseso habang nananatili ang laman kahit mawalan ng kuryente.",
+    "example": "Ginamit ang EEPROM ng Arduino upang i-save ang calibration data kahit patayin ang power.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas mabagal magsulat sa EEPROM kaysa sa RAM, ngunit hindi nito nawawala ang nakaimbak na datos kapag nawalan ng kuryente.",
+    "related": [
+      "ROM",
+      "Flash Memory",
+      "Memory",
+      "Arduino"
+    ]
+  },
+  {
+    "id": 83,
+    "filipino": "Analog-to-Digital Converter",
+    "english": "Analog-to-Digital Converter",
+    "abbreviation": "ADC",
+    "category": "Digital Electronics",
+    "symbol": "ADC",
+    "formula": "",
+    "unit": "bit",
+    "definition": "Isang circuit na nagko-convert ng analog signal tungo sa digital data upang mabasa at maproseso ng microcontroller o processor.",
+    "example": "Ginamit ang ADC upang mabasa ng Arduino ang boltahe mula sa temperature sensor.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas mataas ang resolution ng ADC, mas masusing nasusukat ang pagbabago ng analog signal.",
+    "related": [
+      "DAC",
+      "Analog Signal",
+      "Digital Signal",
+      "Microcontroller"
+    ]
+  },
+  {
+    "id": 84,
+    "filipino": "Digital-to-Analog Converter",
+    "english": "Digital-to-Analog Converter",
+    "abbreviation": "DAC",
+    "category": "Digital Electronics",
+    "symbol": "DAC",
+    "formula": "",
+    "unit": "bit",
+    "definition": "Isang circuit na nagko-convert ng digital data tungo sa analog signal upang magamit ng mga analog device.",
+    "example": "Gumamit ng DAC upang makabuo ng analog audio output mula sa digital data.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Karaniwang ginagamit ang DAC sa audio systems, signal generators, at communication equipment.",
+    "related": [
+      "ADC",
+      "Analog Signal",
+      "Digital Signal",
+      "Audio"
+    ]
+  },
+  {
+    "id": 85,
+    "filipino": "Pulse Width Modulation",
+    "english": "Pulse Width Modulation",
+    "abbreviation": "PWM",
+    "category": "Digital Electronics",
+    "symbol": "PWM",
+    "formula": "Duty Cycle = (TON/T) × 100%",
+    "unit": "Percent (%)",
+    "definition": "Isang paraan ng pagkontrol ng average na boltahe o kapangyarihan sa pamamagitan ng pagbabago ng lapad ng pulse habang nananatiling pareho ang frequency.",
+    "example": "Ginamit ang PWM upang kontrolin ang liwanag ng LED at bilis ng DC motor.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Hindi binabago ng PWM ang supply voltage; binabago lamang nito ang haba ng oras na naka-ON ang signal.",
+    "related": [
+      "Duty Cycle",
+      "Pulse",
+      "DC Motor",
+      "Frequency"
+    ]
+  },
+  {
+    "id": 86,
+    "filipino": "Duty Cycle",
+    "english": "Duty Cycle",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "D",
+    "formula": "D = (TON/T) × 100%",
+    "unit": "Percent (%)",
+    "definition": "Ang porsiyento ng isang buong cycle kung kailan nasa HIGH o aktibong estado ang isang pulse signal.",
+    "example": "Ang 50% duty cycle ay nangangahulugang kalahati ng cycle ay HIGH at kalahati ay LOW.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang pagbabago ng duty cycle ay nakaaapekto sa average power na natatanggap ng load sa PWM systems.",
+    "related": [
+      "PWM",
+      "Pulse",
+      "Frequency",
+      "Square Wave"
+    ]
+  },
+  {
+    "id": 87,
+    "filipino": "UART",
+    "english": "Universal Asynchronous Receiver-Transmitter",
+    "abbreviation": "UART",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "bit/s",
+    "definition": "Isang asynchronous serial communication interface na ginagamit sa pagpapadala at pagtanggap ng datos sa pagitan ng dalawang electronic device.",
+    "example": "Ginamit ang UART communication sa pagitan ng Arduino at HC-12 wireless module.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Dalawang linya lamang—TX at RX—ang pangunahing kailangan ng UART para sa serial communication.",
+    "related": [
+      "TX",
+      "RX",
+      "Serial Communication",
+      "Microcontroller"
+    ]
+  },
+  {
+    "id": 88,
+    "filipino": "SPI",
+    "english": "Serial Peripheral Interface",
+    "abbreviation": "SPI",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "bit/s",
+    "definition": "Isang high-speed synchronous serial communication protocol na ginagamit upang makipag-ugnayan ang microcontroller sa iba't ibang peripheral devices.",
+    "example": "Gumamit ng SPI communication upang basahin ang datos mula sa SD card module.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Karaniwang gumagamit ang SPI ng apat na signal lines: MOSI, MISO, SCK, at CS.",
+    "related": [
+      "I2C",
+      "Clock Signal",
+      "MOSI",
+      "MISO"
+    ]
+  },
+  {
+    "id": 89,
+    "filipino": "I2C",
+    "english": "Inter-Integrated Circuit",
+    "abbreviation": "I2C",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "bit/s",
+    "definition": "Isang synchronous serial communication protocol na gumagamit lamang ng dalawang linya—SDA at SCL—upang makipagpalitan ng datos sa maraming device.",
+    "example": "Ginamit ang I2C upang ikonekta ang LCD module at RTC sa Arduino gamit lamang ang dalawang communication lines.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Maraming I2C devices ang maaaring magbahagi ng parehong SDA at SCL lines basta magkakaiba ang kanilang address.",
+    "related": [
+      "SPI",
+      "SDA",
+      "SCL",
+      "Arduino"
+    ]
+  },
+  {
+    "id": 90,
+    "filipino": "GPIO",
+    "english": "General-Purpose Input/Output",
+    "abbreviation": "GPIO",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Mga programmable pin ng microcontroller o processor na maaaring itakda bilang input upang tumanggap ng signal o output upang magpadala ng signal.",
+    "example": "Itinakda ang GPIO pin bilang output upang paandarin ang LED.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Maaaring baguhin ang function ng GPIO pins sa pamamagitan lamang ng software depende sa pangangailangan ng proyekto.",
+    "related": [
+      "Input",
+      "Output",
+      "Microcontroller",
+      "Arduino"
+    ]
+  },
+  {
+    "id": 91,
+    "filipino": "Input",
+    "english": "Input",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "IN",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang signal o datos na tinatanggap ng isang electronic device o microcontroller upang maproseso o magpatupad ng isang gawain.",
+    "example": "Ang push button ay nagsisilbing input upang magpadala ng signal sa Arduino.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Maaaring manggaling ang input sa mga sensor, switch, keypad, o iba pang electronic devices.",
+    "related": [
+      "Output",
+      "GPIO",
+      "Sensor",
+      "Microcontroller"
+    ]
+  },
+  {
+    "id": 92,
+    "filipino": "Output",
+    "english": "Output",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "OUT",
+    "formula": "",
+    "unit": "",
+    "definition": "Signal o datos na inilalabas ng isang electronic device matapos maproseso ang input.",
+    "example": "Ginamit ang LED bilang output upang ipakita ang resulta ng programa.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Maaaring maging output ang LED, buzzer, relay, motor, LCD, o iba pang actuator.",
+    "related": [
+      "Input",
+      "GPIO",
+      "Actuator",
+      "Microcontroller"
+    ]
+  },
+  {
+    "id": 93,
+    "filipino": "Firmware",
+    "english": "Firmware",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Espesyal na software na nakaimbak sa non-volatile memory ng isang electronic device upang kontrolin ang pangunahing operasyon nito.",
+    "example": "In-update ang firmware ng microcontroller upang magdagdag ng bagong feature.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Karaniwang nakaimbak ang firmware sa Flash Memory o ROM at nananatili kahit mawalan ng suplay ng kuryente.",
+    "related": [
+      "ROM",
+      "Flash Memory",
+      "Bootloader",
+      "Microcontroller"
+    ]
+  },
+  {
+  "id": 94,
+  "filipino": "Resistansiya",
+  "english": "Resistance",
+  "abbreviation": "R",
+  "category": "Batayang Konsepto",
+  "symbol": "R",
+  "formula": "R = V / I",
+  "unit": "Ohm (Ω)",
+  "definition": "Ang katangian ng isang materyal o bahagi ng sirkito na humahadlang sa pagdaloy ng agos ng kuryente. Ito ay sinusukat sa ohm (Ω).",
+  "example": "Ang resistor na may 220 Ω ay may resistansiyang dalawang daan at dalawampung ohms.",
+  "difficulty": "Madali",
+  "didYouKnow": "Ang resistansiya ay isa sa tatlong pangunahing dami sa Batas ni Ohm, kasama ang boltahe at agos ng kuryente.",
+  "related": [
+    "Boltahe",
+    "Agos ng Kuryente",
+    "Ohm",
+    "Resistor"
+    ]
+  },
+  {
+    "id": 95,
+    "filipino": "Pagde-debug",
+    "english": "Debugging",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Proseso ng paghahanap, pagsusuri, at pagwawasto ng mga error o bug sa hardware o software upang matiyak ang tamang operasyon ng sistema.",
+    "example": "Ginamit ang Serial Monitor upang mag-debug ng Arduino program.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Hindi lamang software ang dini-debug; maaari ring i-debug ang electronic circuits gamit ang oscilloscope at multimeter.",
+    "related": [
+      "Testing",
+      "Compiler",
+      "Firmware",
+      "Serial Monitor"
+    ]
+  },
+  {
+    "id": 96,
+    "filipino": "Kompilasyon",
+    "english": "Compilation",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Proseso ng pagsasalin ng source code tungo sa machine code o executable file na maaaring patakbuhin ng processor o microcontroller.",
+    "example": "Kinompila muna ang source code bago ito i-upload sa Arduino.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Hindi maa-upload ang karamihan ng mga programa hangga't walang matagumpay na compilation.",
+    "related": [
+      "Compiler",
+      "Source Code",
+      "Firmware",
+      "Upload"
+    ]
+  },
+  {
+    "id": 97,
+    "filipino": "Compiler",
+    "english": "Compiler",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Software na nagsasalin ng source code mula sa programming language patungo sa machine code na nauunawaan ng processor.",
+    "example": "Gumamit ng GCC compiler upang mabuo ang executable program.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang Arduino IDE ay gumagamit ng AVR-GCC compiler para sa maraming AVR-based boards.",
+    "related": [
+      "Compilation",
+      "Source Code",
+      "Machine Code",
+      "Firmware"
+    ]
+  },
+  {
+    "id": 98,
+    "filipino": "Breadboard",
+    "english": "Breadboard",
+    "abbreviation": "",
+    "category": "Instruments",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang reusable board na ginagamit sa paggawa at pagsubok ng electronic circuits nang hindi kinakailangang magsolder.",
+    "example": "Binuo muna ang prototype circuit sa breadboard bago ilipat sa PCB.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang breadboard ay may magkakaugnay na internal metal strips na nagpapadali sa pansamantalang koneksyon ng mga electronic components.",
+    "related": [
+      "Jumper Wire",
+      "PCB",
+      "Prototype",
+      "Circuit"
+    ]
+  },
+  {
+    "id": 99,
+    "filipino": "Jumper Wire",
+    "english": "Jumper Wire",
+    "abbreviation": "",
+    "category": "Instruments",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang insulated wire na ginagamit upang pagdugtungin ang mga bahagi ng circuit, lalo na sa breadboard at prototyping.",
+    "example": "Ikinonekta ang sensor sa Arduino gamit ang jumper wires.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "May tatlong karaniwang uri ng jumper wire: male-to-male, male-to-female, at female-to-female.",
+    "related": [
+      "Breadboard",
+      "Connection",
+      "Prototype",
+      "PCB"
+    ]
+  },
+  {
+    "id": 100,
+    "filipino": "Prototipo",
+    "english": "Prototype",
+    "abbreviation": "",
+    "category": "Instruments",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Ang unang gumaganang bersyon ng isang electronic device o sistema na ginagamit upang subukan at pagbutihin ang disenyo bago ang pinal na paggawa.",
+    "example": "Gumawa muna ang grupo ng prototype ng wireless Morse Code Translator bago ito inilagay sa enclosure.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Nakakatulong ang prototype upang matukoy ang mga problema sa disenyo bago magsimula ang mass production.",
+    "related": [
+      "Breadboard",
+      "Testing",
+      "PCB",
+      "Design"
+    ]
+  },
+  {
+    "id": 101,
+    "filipino": "Radio Frequency",
+    "english": "Radio Frequency",
+    "abbreviation": "RF",
+    "category": "Communication",
+    "symbol": "RF",
+    "formula": "",
+    "unit": "Hertz (Hz)",
+    "definition": "Saklaw ng mga frequency ng electromagnetic waves na ginagamit sa wireless communication at radio transmission.",
+    "example": "Gumamit ang HC-12 module ng radio frequency upang makapagpadala ng datos nang wireless.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Saklaw ng radio frequency ang humigit-kumulang 3 kHz hanggang 300 GHz.",
+    "related": [
+      "Antenna",
+      "Signal",
+      "Microwave",
+      "Propagation"
+    ]
+  },
+  {
+    "id": 102,
+    "filipino": "Mikroalon",
+    "english": "Microwave",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "Gigahertz (GHz)",
+    "definition": "Uri ng electromagnetic wave na may napakataas na frequency at ginagamit sa satellite communication, radar, at wireless networks.",
+    "example": "Gumagamit ng microwave frequencies ang satellite communication.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang Wi-Fi sa 2.4 GHz at 5 GHz ay kabilang sa microwave frequency band.",
+    "related": [
+      "Radio Frequency",
+      "Antenna",
+      "Propagation",
+      "Gigahertz"
+    ]
+  },
+  {
+    "id": 103,
+    "filipino": "Carrier Wave",
+    "english": "Carrier Wave",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "High-frequency signal na ginagamit upang dalhin ang impormasyon sa pamamagitan ng modulation.",
+    "example": "Ginamit ang carrier wave sa AM radio transmission.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Hindi naglalaman ng impormasyon ang carrier wave hangga't hindi ito namo-modulate.",
+    "related": [
+      "Modulation",
+      "Signal",
+      "Amplitude Modulation",
+      "Frequency Modulation"
+    ]
+  },
+  {
+    "id": 104,
+    "filipino": "Modulasyong Amplitude",
+    "english": "Amplitude Modulation",
+    "abbreviation": "AM",
+    "category": "Communication",
+    "symbol": "AM",
+    "formula": "",
+    "unit": "",
+    "definition": "Pamamaraan ng modulation kung saan binabago ang amplitude ng carrier wave ayon sa impormasyong ipinapadala.",
+    "example": "Ang AM broadcasting ay gumagamit ng amplitude modulation.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas madaling maapektuhan ng electrical noise ang AM kaysa FM.",
+    "related": [
+      "Frequency Modulation",
+      "Carrier Wave",
+      "Signal",
+      "Radio Frequency"
+    ]
+  },
+  {
+    "id": 105,
+    "filipino": "Modulasyong Dalasan",
+    "english": "Frequency Modulation",
+    "abbreviation": "FM",
+    "category": "Communication",
+    "symbol": "FM",
+    "formula": "",
+    "unit": "",
+    "definition": "Pamamaraan ng modulation kung saan binabago ang frequency ng carrier wave ayon sa impormasyong ipinapadala.",
+    "example": "Ang FM radio ay gumagamit ng frequency modulation para sa mas malinaw na audio.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas mahusay ang FM sa paglaban sa electrical noise kaysa AM.",
+    "related": [
+      "Amplitude Modulation",
+      "Carrier Wave",
+      "Signal",
+      "Radio Frequency"
+    ]
+  },
+  {
+    "id": 106,
+    "filipino": "Modulasyong Yugto",
+    "english": "Phase Modulation",
+    "abbreviation": "PM",
+    "category": "Communication",
+    "symbol": "PM",
+    "formula": "",
+    "unit": "",
+    "definition": "Pamamaraan ng modulation kung saan binabago ang phase ng carrier wave upang maipadala ang impormasyon.",
+    "example": "Ginagamit ang phase modulation sa ilang digital communication systems.",
+    "difficulty": "Mataas",
+    "didYouKnow": "Malapit ang ugnayan ng phase modulation at frequency modulation sa modernong digital communication.",
+    "related": [
+      "Phase",
+      "Carrier Wave",
+      "Frequency Modulation",
+      "Signal"
+    ]
+  },
+  {
+    "id": 107,
+    "filipino": "Yugto",
+    "english": "Phase",
+    "abbreviation": "",
+    "category": "Batayang Konsepto",
+    "symbol": "φ",
+    "formula": "φ = 360° × (Δt/T)",
+    "unit": "Degree (°)",
+    "definition": "Ang posisyon ng isang waveform sa loob ng isang kumpletong cycle kaugnay ng isa pang waveform.",
+    "example": "Sinukat ang phase difference ng dalawang AC signal gamit ang oscilloscope.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang dalawang signal na may 180° phase difference ay magkasalungat ang polarity.",
+    "related": [
+      "Waveform",
+      "Frequency",
+      "Phase Modulation",
+      "Oscilloscope"
+    ]
+  },
+  {
+    "id": 108,
+    "filipino": "Ingay",
+    "english": "Noise",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Hindi kanais-nais na signal na nakahahalo sa nais na impormasyon at maaaring magdulot ng error o pagbaba ng kalidad ng komunikasyon.",
+    "example": "Nagkaroon ng electrical noise dahil sa kalapit na power lines.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Hindi lahat ng noise ay mula sa kapaligiran; maaari rin itong manggaling sa mismong electronic components.",
+    "related": [
+      "Signal",
+      "Signal-to-Noise Ratio",
+      "Interference",
+      "Attenuation"
+    ]
+  },
+  {
+    "id": 109,
+    "filipino": "Proporsyon ng Signal sa Ingay",
+    "english": "Signal-to-Noise Ratio",
+    "abbreviation": "SNR",
+    "category": "Communication",
+    "symbol": "SNR",
+    "formula": "SNR = Ps/Pn",
+    "unit": "Decibel (dB)",
+    "definition": "Sukat ng lakas ng nais na signal kumpara sa lakas ng noise sa isang communication system.",
+    "example": "Mas mataas na SNR ang nagbigay ng mas malinaw na audio transmission.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas mataas ang SNR, mas malinaw at mas maaasahan ang natatanggap na signal.",
+    "related": [
+      "Noise",
+      "Signal",
+      "Decibel",
+      "Attenuation"
+    ]
+  },
+  {
+    "id": 110,
+    "filipino": "Paghina ng Signal",
+    "english": "Attenuation",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "Decibel (dB)",
+    "definition": "Unti-unting pagbaba ng lakas ng signal habang ito ay dumaraan sa isang transmission medium.",
+    "example": "Lumaki ang attenuation dahil sa mahabang coaxial cable.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang attenuation ay tumataas habang humahaba ang cable o tumataas ang frequency.",
+    "related": [
+      "Signal",
+      "Gain",
+      "Transmission Line",
+      "Noise"
+    ]
+  },
+  {
+    "id": 111,
+    "filipino": "Paglaganap",
+    "english": "Propagation",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Proseso ng paglalakbay ng electromagnetic waves mula sa transmitter patungo sa receiver.",
+    "example": "Sinuri ang radio wave propagation bago mag-install ng antenna.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Malaki ang epekto ng panahon, terrain, at frequency sa radio wave propagation.",
+    "related": [
+      "Radio Frequency",
+      "Antenna",
+      "Reflection",
+      "Refraction"
+    ]
+  },
+  {
+    "id": 112,
+    "filipino": "Repleksiyon",
+    "english": "Reflection",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Pagbalik ng electromagnetic wave kapag tumama ito sa isang hadlang o ibabaw.",
+    "example": "Nagdulot ng signal reflection ang matataas na gusali sa urban area.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang reflection ay maaaring magdulot ng multipath interference sa wireless communication.",
+    "related": [
+      "Propagation",
+      "Standing Wave",
+      "Refraction",
+      "Diffraction"
+    ]
+  },
+  {
+    "id": 113,
+    "filipino": "Refraction",
+    "english": "Refraction",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Pagbabago ng direksiyon ng isang electromagnetic wave habang dumaraan ito mula sa isang medium patungo sa iba dahil sa pagbabago ng bilis nito.",
+    "example": "Naaapektuhan ng atmospheric refraction ang paglalakbay ng radio waves sa malalayong distansya.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang refraction ay isa sa mga dahilan kung bakit nakararating ang ilang radio signals lampas sa line of sight.",
+    "related": [
+      "Propagation",
+      "Reflection",
+      "Diffraction",
+      "Radio Frequency"
+    ]
+  },
+  {
+    "id": 114,
+    "filipino": "Diffraction",
+    "english": "Diffraction",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Pagbaluktot o pagkalat ng electromagnetic wave kapag dumaan ito sa gilid ng isang hadlang o maliit na siwang.",
+    "example": "Dahil sa diffraction, nakararating pa rin ang radio signal kahit may burol sa pagitan ng transmitter at receiver.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas kapansin-pansin ang diffraction kapag ang wavelength ay malapit sa laki ng hadlang.",
+    "related": [
+      "Propagation",
+      "Reflection",
+      "Refraction",
+      "Radio Frequency"
+    ]
+  },
+  {
+    "id": 115,
+    "filipino": "Polarisasyon",
+    "english": "Polarization",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Ang direksiyon ng electric field ng isang electromagnetic wave habang ito ay naglalakbay.",
+    "example": "Gumamit ng vertical polarization ang transmitting antenna upang tumugma sa receiving antenna.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Kapag hindi magkatugma ang polarization ng dalawang antenna, maaaring humina ang natatanggap na signal.",
+    "related": [
+      "Antenna",
+      "Radio Frequency",
+      "Propagation",
+      "Electromagnetic Wave"
+    ]
+  },
+  {
+    "id": 116,
+    "filipino": "Dipole Antenna",
+    "english": "Dipole Antenna",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "L ≈ λ/2",
+    "unit": "Meter (m)",
+    "definition": "Isang pangunahing uri ng antenna na binubuo ng dalawang conductive elements at karaniwang ginagamit sa radio communication.",
+    "example": "Isang half-wave dipole antenna ang ginamit para sa FM receiver.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang half-wave dipole ang batayang disenyo ng maraming uri ng antenna.",
+    "related": [
+      "Antenna",
+      "Radio Frequency",
+      "Yagi Antenna",
+      "Polarization"
+    ]
+  },
+  {
+    "id": 117,
+    "filipino": "Antenang Yagi",
+    "english": "Yagi Antenna",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang directional antenna na may mataas na gain at ginagamit para sa long-distance radio at television reception.",
+    "example": "Yagi antenna ang ginamit upang mapahusay ang pagtanggap ng TV signal.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang Yagi antenna ay may reflector at isa o higit pang director elements upang mapataas ang gain.",
+    "related": [
+      "Dipole Antenna",
+      "Gain",
+      "Radio Frequency",
+      "Antenna"
+    ]
+  },
+  {
+    "id": 118,
+    "filipino": "Parabolikong Antena",
+    "english": "Parabolic Antenna",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang antenna na gumagamit ng parabolic reflector upang ituon ang electromagnetic waves sa isang direksiyon.",
+    "example": "Parabolic antenna ang ginagamit sa satellite television at satellite internet.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Habang lumalaki ang dish ng parabolic antenna, tumataas din ang gain nito.",
+    "related": [
+      "Microwave",
+      "Satellite",
+      "Gain",
+      "Antenna"
+    ]
+  },
+  {
+    "id": 119,
+    "filipino": "Koaksiyal na Kable",
+    "english": "Coaxial Cable",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang shielded cable na ginagamit sa paghahatid ng high-frequency electrical signals na may mababang interference.",
+    "example": "RG-58 coaxial cable ang ginamit upang ikonekta ang antenna sa transceiver.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang metal shielding ng coaxial cable ang tumutulong upang mabawasan ang electromagnetic interference.",
+    "related": [
+      "Transmission Line",
+      "Antenna",
+      "Radio Frequency",
+      "Impedance"
+    ]
+  },
+  {
+    "id": 120,
+    "filipino": "Linyang Transmisyon",
+    "english": "Transmission Line",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "Z₀ = √(L/C)",
+    "unit": "Ohm (Ω)",
+    "definition": "Isang daluyan na idinisenyo upang maihatid ang high-frequency electrical signals mula sa pinagmulan patungo sa load nang may kaunting pagkawala.",
+    "example": "Transmission line ang nagdurugtong sa RF transmitter at antenna.",
+    "difficulty": "Mataas",
+    "didYouKnow": "Sa RF systems, mahalagang magkatugma ang characteristic impedance ng transmission line at antenna.",
+    "related": [
+      "Coaxial Cable",
+      "Impedance",
+      "Standing Wave",
+      "Matching"
+    ]
+  },
+  {
+    "id": 121,
+    "filipino": "Standing Wave",
+    "english": "Standing Wave",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Wave pattern na nabubuo kapag nagsasama ang incident at reflected waves sa isang transmission line.",
+    "example": "Sinukat ang standing wave upang matukoy kung maayos ang antenna matching.",
+    "difficulty": "Mataas",
+    "didYouKnow": "Ang mataas na standing wave ay senyales na may impedance mismatch sa transmission system.",
+    "related": [
+      "SWR",
+      "Reflection",
+      "Transmission Line",
+      "Matching"
+    ]
+  },
+  {
+    "id": 122,
+    "filipino": "Standing Wave Ratio",
+    "english": "Standing Wave Ratio",
+    "abbreviation": "SWR",
+    "category": "Communication",
+    "symbol": "SWR",
+    "formula": "SWR = Vmax/Vmin",
+    "unit": "",
+    "definition": "Sukat ng antas ng impedance matching sa pagitan ng transmission line at antenna.",
+    "example": "Mas mababa sa 2:1 na SWR ang karaniwang itinuturing na katanggap-tanggap sa maraming RF system.",
+    "difficulty": "Mataas",
+    "didYouKnow": "Ang SWR na 1:1 ay nangangahulugang halos walang reflected power.",
+    "related": [
+      "Standing Wave",
+      "Matching",
+      "Transmission Line",
+      "Antenna"
+    ]
+  },
+  {
+    "id": 123,
+    "filipino": "Matching",
+    "english": "Matching",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Proseso ng pagtutugma ng impedance ng dalawang magkaugnay na bahagi upang makamit ang pinakamataas na paglipat ng signal o kapangyarihan.",
+    "example": "Gumamit ng antenna tuner upang maisagawa ang impedance matching.",
+    "difficulty": "Mataas",
+    "didYouKnow": "Ang tamang impedance matching ay nagpapababa ng reflected power at nagpapataas ng transmission efficiency.",
+    "related": [
+      "Impedance",
+      "SWR",
+      "Transmission Line",
+      "Antenna"
+    ]
+  },
+  {
+    "id": 124,
+    "filipino": "Fiber Optics",
+    "english": "Fiber Optics",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Teknolohiya ng pagpapadala ng datos gamit ang liwanag na dumaraan sa optical fiber.",
+    "example": "Fiber optics ang ginagamit sa mga high-speed internet backbone.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas mataas ang bandwidth at mas mababa ang signal loss ng fiber optics kaysa sa copper cables sa malalayong distansya.",
+    "related": [
+      "Optical Fiber",
+      "Light",
+      "Communication",
+      "Transmission"
+    ]
+  },
+  {
+    "id": 125,
+    "filipino": "Optical Fiber",
+    "english": "Optical Fiber",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Manipis na hibla ng salamin o plastik na ginagamit bilang daluyan ng liwanag sa fiber optic communication.",
+    "example": "Optical fiber ang ginagamit upang maihatid ang internet signal sa mga FTTH connections.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang optical fiber ay hindi naaapektuhan ng electromagnetic interference kaya angkop ito sa high-speed communication.",
+    "related": [
+      "Fiber Optics",
+      "Light",
+      "Transmission",
+      "Communication"
+    ]
+  },
+  {
+    "id": 126,
+    "filipino": "Laser Diode",
+    "english": "Laser Diode",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Isang semiconductor diode na naglalabas ng coherent laser light kapag nilagyan ng tamang forward current.",
+    "example": "Laser diode ang ginamit bilang light source sa fiber optic transmitter.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas makitid at mas nakatuon ang sinag ng laser diode kaysa sa karaniwang LED.",
+    "related": [
+      "Photodiode",
+      "LED",
+      "Fiber Optics",
+      "Optical Fiber"
+    ]
+  },
+  {
+    "id": 127,
+    "filipino": "Photodiode",
+    "english": "Photodiode",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Semiconductor diode na nagko-convert ng liwanag tungo sa electrical current.",
+    "example": "Photodiode ang ginamit upang tumanggap ng optical signal sa fiber optic receiver.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas mabilis tumugon ang photodiode kaysa sa karamihan ng light-dependent sensors.",
+    "related": [
+      "Laser Diode",
+      "Phototransistor",
+      "Light",
+      "Sensor"
+    ]
+  },
+  {
+    "id": 128,
+    "filipino": "Phototransistor",
+    "english": "Phototransistor",
+    "abbreviation": "",
+    "category": "Active Components",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Transistor na gumagamit ng liwanag bilang pangunahing control input sa halip na electrical current.",
+    "example": "Phototransistor ang ginamit bilang IR receiver sa remote control.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Mas mataas ang sensitivity ng phototransistor kaysa photodiode ngunit mas mabagal ang response nito.",
+    "related": [
+      "Photodiode",
+      "Infrared",
+      "Sensor",
+      "Transistor"
+    ]
+  },
+  {
+    "id": 129,
+    "filipino": "Infrared",
+    "english": "Infrared",
+    "abbreviation": "IR",
+    "category": "Communication",
+    "symbol": "IR",
+    "formula": "",
+    "unit": "",
+    "definition": "Bahagi ng electromagnetic spectrum na may wavelength na mas mahaba kaysa visible light at karaniwang ginagamit sa sensing at short-range communication.",
+    "example": "Infrared ang ginagamit ng TV remote control upang magpadala ng utos.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Hindi nakikita ng mata ng tao ang infrared light ngunit maaari itong matukoy ng mga IR sensors.",
+    "related": [
+      "Photodiode",
+      "Phototransistor",
+      "LED",
+      "Sensor"
+    ]
+  },
+  {
+    "id": 130,
+    "filipino": "Bluetooth",
+    "english": "Bluetooth",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Wireless communication technology para sa maikling distansya gamit ang 2.4 GHz ISM band.",
+    "example": "Bluetooth ang ginamit upang ikonekta ang smartphone sa wireless headset.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Karamihan ng Bluetooth devices ay gumagamit ng frequency hopping upang mabawasan ang interference.",
+    "related": [
+      "Wi-Fi",
+      "Radio Frequency",
+      "IoT",
+      "Wireless"
+    ]
+  },
+  {
+    "id": 131,
+    "filipino": "Wi-Fi",
+    "english": "Wi-Fi",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Wireless networking technology na sumusunod sa IEEE 802.11 standards para sa pagpapalitan ng data.",
+    "example": "Wi-Fi ang ginamit upang ikonekta ang laptop sa internet.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Karaniwang gumagamit ang Wi-Fi ng 2.4 GHz, 5 GHz, at 6 GHz frequency bands.",
+    "related": [
+      "Bluetooth",
+      "Router",
+      "IEEE 802.11",
+      "Network"
+    ]
+  },
+  {
+  "id": 132,
+  "filipino": "Enerhiya",
+  "english": "Energy",
+  "abbreviation": "E",
+  "category": "Batayang Konsepto",
+  "symbol": "E",
+  "formula": "E = P × t",
+  "unit": "Joule (J)",
+  "definition": "Ang kakayahang gumawa ng trabaho o magdulot ng pagbabago. Sa elektronika, ito ang enerhiyang ginagamit, iniimbak, o inililipat sa isang sirkito.",
+  "example": "Ang baterya ay nag-iimbak ng elektrikal na enerhiya upang mapagana ang isang aparato.",
+  "difficulty": "Madali",
+  "didYouKnow": "Ang elektrikal na enerhiya ay karaniwang sinusukat sa joule (J), ngunit sa mga tahanan ay madalas itong ipinapakita sa kilowatt-hour (kWh).",
+  "related": [
+    "Kapangyarihang Elektrikal",
+    "Boltahe",
+    "Agos ng Kuryente",
+    "Baterya"
+    ]
+  },
+  {
+    "id": 133,
+    "filipino": "LoRa",
+    "english": "LoRa",
+    "abbreviation": "LoRa",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Long-range, low-power wireless communication technology na ginagamit sa malalayong IoT applications.",
+    "example": "LoRa ang ginamit upang magpadala ng sensor data mula sa bukid patungo sa monitoring station.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Kayang magpadala ng LoRa ng datos sa ilang kilometro habang mababa ang konsumo ng enerhiya.",
+    "related": [
+      "IoT",
+      "Radio Frequency",
+      "Telemetry",
+      "Wireless"
+    ]
+  },
+  {
+    "id": 134,
+    "filipino": "GPS",
+    "english": "Global Positioning System",
+    "abbreviation": "GPS",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Satellite-based navigation system na ginagamit upang matukoy ang lokasyon, bilis, at oras ng isang receiver.",
+    "example": "GPS module ang ginamit upang subaybayan ang lokasyon ng sasakyan.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Karaniwang nangangailangan ang GPS receiver ng signal mula sa hindi bababa sa apat na satellite upang makuha ang tumpak na lokasyon.",
+    "related": [
+      "Satellite",
+      "Navigation",
+      "Telemetry",
+      "Radio Frequency"
+    ]
+  },
+  {
+    "id": 135,
+    "filipino": "Satelayt",
+    "english": "Satellite",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Artipisyal na bagay na umiikot sa mundo at ginagamit sa komunikasyon, nabigasyon, at pagmamasid sa kalawakan.",
+    "example": "Satellite ang ginagamit sa satellite television at GPS.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang geostationary satellite ay umiikot kasabay ng pag-ikot ng mundo kaya tila hindi ito gumagalaw mula sa ibabaw ng daigdig.",
+    "related": [
+      "GPS",
+      "Microwave",
+      "Telemetry",
+      "Communication"
+    ]
+  },
+  {
+    "id": 136,
+    "filipino": "Telemetriya",
+    "english": "Telemetry",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Proseso ng malayuang pagsukat, pagkolekta, at pagpapadala ng datos mula sa isang device patungo sa monitoring system.",
+    "example": "Telemetry ang ginamit upang subaybayan ang datos mula sa weather station.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Malawak ang gamit ng telemetry sa aerospace, industrial automation, at remote sensing.",
+    "related": [
+      "Telemetry System",
+      "Sensor",
+      "LoRa",
+      "GPS"
+    ]
+  },
+  {
+    "id": 137,
+    "filipino": "Sistemang Telemetriya",
+    "english": "Telemetry System",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Kumpletong sistema na binubuo ng mga sensor, communication link, at monitoring equipment para sa telemetry.",
+    "example": "Telemetry system ang ginamit sa industrial monitoring ng planta.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Kadalasang binubuo ang telemetry system ng sensor, transmitter, communication channel, receiver, at monitoring software.",
+    "related": [
+      "Telemetry",
+      "Sensor",
+      "Data",
+      "Communication"
+    ]
+  },
+  {
+    "id": 138,
+    "filipino": "Internet of Things",
+    "english": "Internet of Things",
+    "abbreviation": "IoT",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Konsepto kung saan ang mga device ay nakakonekta sa internet upang makapagpalitan ng datos at makontrol nang malayuan.",
+    "example": "Smart home system ang isang karaniwang aplikasyon ng Internet of Things.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Maraming IoT devices ang gumagamit ng Wi-Fi, Bluetooth, Zigbee, o LoRa para sa komunikasyon.",
+    "related": [
+      "Cloud Computing",
+      "Sensor",
+      "Wi-Fi",
+      "LoRa"
+    ]
+  },
+  {
+    "id": 139,
+    "filipino": "Cloud Computing",
+    "english": "Cloud Computing",
+    "abbreviation": "",
+    "category": "Digital Electronics",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Pamamaraan ng paggamit ng internet upang mag-imbak, magproseso, at mamahala ng datos at mga application gamit ang mga remote server.",
+    "example": "Iniimbak ng IoT device ang sensor data sa cloud computing platform upang ma-access ito kahit saan.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Maraming IoT systems ang umaasa sa cloud computing para sa data analytics, remote monitoring, at automation.",
+    "related": [
+      "Internet of Things",
+      "Server",
+      "Network",
+      "Telemetry"
+    ]
+  },
+  {
+    "id": 140,
+    "filipino": "Server",
+    "english": "Server",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Computer o system na nagbibigay ng mga serbisyo, datos, o resources sa ibang device sa loob ng isang network.",
+    "example": "Ang web server ang naghatid ng webpage sa browser ng gumagamit.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Maaaring magsilbi ang isang server bilang web server, file server, database server, o application server.",
+    "related": [
+      "Client",
+      "Network",
+      "Cloud Computing",
+      "Router"
+    ]
+  },
+  {
+    "id": 141,
+    "filipino": "Client",
+    "english": "Client",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Computer o device na humihiling at gumagamit ng serbisyo o datos mula sa isang server.",
+    "example": "Ang laptop ay nagsilbing client upang ma-access ang files mula sa server.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Halos lahat ng smartphone at personal computer ay kumikilos bilang client kapag kumokonekta sa internet.",
+    "related": [
+      "Server",
+      "Network",
+      "Router",
+      "Protocol"
+    ]
+  },
+  {
+    "id": 142,
+    "filipino": "Router",
+    "english": "Router",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Network device na nagdidirekta at nagpapadala ng data packets sa tamang destinasyon sa pagitan ng mga network.",
+    "example": "Ang home router ang nagkokonekta ng lahat ng device sa internet.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang router ang pumipili ng pinakamainam na ruta ng data packets batay sa routing information.",
+    "related": [
+      "Network",
+      "Packet",
+      "Ethernet",
+      "Wi-Fi"
+    ]
+  },
+  {
+    "id": 143,
+    "filipino": "Network",
+    "english": "Network",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Pangkat ng dalawa o higit pang device na magkakaugnay upang makapagbahagi ng datos at mga serbisyo.",
+    "example": "Magkakakonekta ang lahat ng computer sa laboratoryo sa iisang network.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Maaaring wired o wireless ang isang network depende sa paraan ng koneksyon ng mga device.",
+    "related": [
+      "Router",
+      "Server",
+      "Client",
+      "Protocol"
+    ]
+  },
+  {
+    "id": 144,
+    "filipino": "Ethernet",
+    "english": "Ethernet",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "Megabit per second (Mbps)",
+    "definition": "Pamantayang teknolohiya para sa wired local area networking na gumagamit ng Ethernet cables at compatible network devices.",
+    "example": "Mas matatag ang koneksyon ng desktop computer gamit ang Ethernet cable kaysa Wi-Fi.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Ang modernong Ethernet ay maaaring umabot sa bilis na higit sa 100 Gbps sa mga enterprise network.",
+    "related": [
+      "RJ45",
+      "LAN",
+      "Router",
+      "Network"
+    ]
+  },
+  {
+    "id": 145,
+    "filipino": "RJ45",
+    "english": "Registered Jack 45",
+    "abbreviation": "RJ45",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Karaniwang connector na ginagamit sa Ethernet cables para sa wired network communication.",
+    "example": "Ikonekta ang Ethernet cable sa RJ45 port ng router.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "May walong contact pins ang RJ45 connector na ginagamit sa karamihan ng LAN connections.",
+    "related": [
+      "Ethernet",
+      "LAN",
+      "Network",
+      "Connector"
+    ]
+  },
+  {
+    "id": 146,
+    "filipino": "Local Area Network",
+    "english": "Local Area Network",
+    "abbreviation": "LAN",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Network na sumasaklaw sa maliit na lugar tulad ng bahay, paaralan, laboratoryo, o opisina.",
+    "example": "Nakakonekta sa iisang LAN ang lahat ng computer sa computer laboratory.",
+    "difficulty": "Pangunahin",
+    "didYouKnow": "Ang Ethernet ang pinakakaraniwang teknolohiya na ginagamit sa wired LAN.",
+    "related": [
+      "WAN",
+      "Ethernet",
+      "Router",
+      "Network"
+    ]
+  },
+  {
+    "id": 147,
+    "filipino": "Wide Area Network",
+    "english": "Wide Area Network",
+    "abbreviation": "WAN",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Network na nag-uugnay ng mga device o lokal na network sa malalayong lokasyon o malawak na heograpikal na lugar.",
+    "example": "Ang internet ang pinakamalaking halimbawa ng isang Wide Area Network.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Maraming WAN ang gumagamit ng fiber optics, microwave links, o satellite communication.",
+    "related": [
+      "LAN",
+      "Network",
+      "Router",
+      "Internet"
+    ]
+  },
+  {
+    "id": 148,
+    "filipino": "Protokol",
+    "english": "Protocol",
+    "abbreviation": "",
+    "category": "Communication",
+    "symbol": "",
+    "formula": "",
+    "unit": "",
+    "definition": "Hanay ng mga tuntunin at pamantayan na sinusunod ng mga device upang makapagpalitan ng datos sa isang network.",
+    "example": "Ang TCP/IP ang pangunahing protocol suite na ginagamit sa internet.",
+    "difficulty": "Katamtaman",
+    "didYouKnow": "Magkakaiba ang tungkulin ng bawat protocol, gaya ng HTTP para sa web at FTP para sa file transfer.",
+    "related": [
+      "Packet",
+      "Network",
+      "TCP/IP",
+      "Router"
+    ]
+  },
+  {
+  "id": 149,
+  "filipino": "Amper",
+  "english": "Ampere",
+  "abbreviation": "A",
+  "category": "Batayang Konsepto",
+  "symbol": "A",
+  "formula": "",
+  "unit": "Ampere (A)",
+  "definition": "Ang SI unit ng agos ng kuryente. Isang amper ang katumbas ng pagdaloy ng isang coulomb ng kargang elektrikal bawat segundo.",
+  "example": "Ang kasalukuyang dumadaloy sa sirkito ay may lakas na 2 amperes.",
+  "difficulty": "Madali",
+  "didYouKnow": "Ang yunit na ampere ay ipinangalan kay André-Marie Ampère, isang Pranses na pisiko na kilala bilang isa sa mga tagapagtatag ng electromagnetism.",
+  "related": [
+    "Agos ng Kuryente",
+    "Boltahe",
+    "Resistansiya",
+    "Kapangyarihang Elektrikal"
+    ]
+  },
+  {
+  "id": 150,
+  "filipino": "Kapangyarihang Elektrikal",
+  "english": "Power",
+  "abbreviation": "P",
+  "category": "Batayang Konsepto",
+  "symbol": "P",
+  "formula": "P = V × I",
+  "unit": "Watt (W)",
+  "definition": "Ang bilis ng paggamit o paglipat ng elektrikal na enerhiya sa isang sirkito. Karaniwan itong sinusukat sa watt.",
+  "example": "Ang isang bombilyang may 60 W ay gumagamit ng 60 watts na kapangyarihan habang ito ay umaandar.",
+  "difficulty": "Madali",
+  "didYouKnow": "Maaaring kalkulahin ang kapangyarihang elektrikal gamit ang pormulang P = V × I, kung saan ang V ay boltahe at ang I ay agos ng kuryente.",
+  "related": [
+    "Boltahe",
+    "Agos ng Kuryente",
+    "Enerhiya",
+    "Watt"
+    ]
+  }
+]

@@ -1,0 +1,363 @@
+/* ==========================================
+   ABOUT PAGE
+========================================== */
+
+.about-page{
+    padding:140px 0 80px;
+    min-height:100vh;
+}
+
+.about-container{
+    max-width:1100px;
+    margin:auto;
+    padding:0 25px;
+}
+
+/* ==========================================
+   HEADER
+========================================== */
+
+.about-header{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.about-badge{
+
+    display:inline-block;
+    background:#2F80ED;
+    color:white;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:.9rem;
+
+    margin-bottom:20px;
+
+}
+
+.about-header h1{
+
+    font-size:3rem;
+
+    margin-bottom:15px;
+
+    color:#39A9FF;
+
+}
+
+.about-subtitle{
+
+    max-width:720px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+    color:#d9d9d9;
+
+}
+.about-stats{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    margin-bottom:50px;
+
+    flex-wrap:wrap;
+
+}
+
+.stat-card{
+
+    width:220px;
+
+    padding:30px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    background:#173b67;
+
+    border:1px solid rgba(255,255,255,.1);
+
+    transition:.3s;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.stat-card h2{
+
+    font-size:2.2rem;
+
+    color:#39A9FF;
+
+}
+
+.stat-card p{
+
+    color:#d9d9d9;
+
+}
+
+/* ==========================================
+   CARDS
+========================================== */
+
+.about-card{
+
+    background:#123154;
+
+    border:1px solid rgba(56,189,248,.15);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    margin-bottom:30px;
+
+    transition:.35s;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.18);
+
+}
+
+.about-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#38BDF8;
+
+    box-shadow:0 12px 32px rgba(56,189,248,.18);
+
+}
+
+.about-card h2{
+
+    color:#38BDF8;
+
+    font-size:30px;
+
+    margin-bottom:20px;
+
+    border-left:5px solid #38BDF8;
+
+    padding-left:15px;
+
+}
+
+.about-card p{
+
+    color:#e4e4e4;
+
+    line-height:1.9;
+
+    text-align:justify;
+
+    font-size:16px;
+
+}
+
+/* ==========================================
+   LIST
+========================================== */
+
+.about-card ul{
+
+    margin-top:15px;
+
+    padding-left:25px;
+
+}
+
+.about-card li{
+
+    color:#ececec;
+
+    margin-bottom:15px;
+
+    line-height:1.8;
+
+}
+
+/* ==========================================
+   TABLE
+========================================== */
+
+.about-card table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+.about-card th{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+.about-card td{
+
+    padding:15px;
+
+    color:#ececec;
+
+    border-bottom:1px solid rgba(255,255,255,.12);
+
+}
+
+/* ==========================================
+   DEVELOPER LIST
+========================================== */
+
+.about-card strong{
+
+    color:#38BDF8;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+.about-page{
+
+    padding-top:120px;
+
+}
+
+.about-header h1{
+
+    font-size:38px;
+
+}
+
+.about-header .subtitle{
+
+    font-size:18px;
+
+}
+
+.about-card{
+
+    padding:25px;
+
+}
+
+.about-card h2{
+
+    font-size:24px;
+
+}
+
+}
+
+
+/* ==========================================
+   TEAM SECTION
+========================================== */
+
+.team-section{
+    text-align:center;
+}
+
+.team-description{
+    max-width:700px;
+    margin:15px auto 45px;
+    color:#d8e6f5;
+    line-height:1.8;
+    font-size:1rem;
+}
+
+.developers{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:50px;
+}
+
+.developer-card{
+    width:220px;
+    text-align:center;
+    transition:.3s ease;
+}
+
+.developer-card:hover{
+    transform:translateY(-8px);
+}
+
+.developer-card img{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:50%;
+    border:3px solid #39A9FF;
+    padding:5px;
+    background:#fff;
+    transition:.3s ease;
+}
+
+.developer-card:hover img{
+    transform:scale(1.05);
+    box-shadow:0 12px 25px rgba(0,0,0,.25);
+}
+
+.developer-card h3{
+    margin-top:18px;
+    margin-bottom:10px;
+    font-size:1.2rem;
+    color:#ffffff;
+}
+
+.developer-card p{
+    color:#d9d9d9;
+    margin-bottom:6px;
+}
+
+.developer-card span{
+    color:#9bb9d8;
+    font-size:.9rem;
+    line-height:1.6;
+}
+
+.system-info{
+    margin-top:70px;
+    text-align:center;
+    opacity:.8;
+}
+
+.system-info hr{
+    width:120px;
+    margin:0 auto 30px;
+    border:none;
+    border-top:2px solid rgba(255,255,255,.2);
+}
+
+.system-info p{
+    margin:8px 0;
+    color:#cfd8e3;
+    font-size:.95rem;
+}
