@@ -941,22 +941,22 @@
   },
   {
     "id": 48,
-    "filipino": "Polarisasyon",
+    "filipino": "Paglalapat ng Bias",
     "english": "Biasing",
     "abbreviation": "",
     "category": "Active Components",
     "symbol": "",
     "formula": "",
     "unit": "",
-    "definition": "Proseso ng paglalapat ng tamang boltahe o kuryente sa isang elektronikong sangkap upang gumana ito sa nais na operating point.",
+    "definition": "Proseso ng paglalapat ng tamang boltahe o agos ng kuryente sa isang semiconductor device upang maitakda ang wastong operating point nito.",
     "example": "Mahalaga ang tamang biasing upang gumana nang maayos ang transistor bilang amplifier.",
     "difficulty": "Katamtaman",
-    "didYouKnow": "Ang hindi tamang biasing ay maaaring magdulot ng distortion o hindi wastong pagganap ng transistor.",
+    "didYouKnow": "Ang wastong biasing ay tumutulong upang mapanatili ang transistor sa tamang operating region at maiwasan ang distortion sa output signal.",
     "related": [
       "Transistor",
-      "Voltage",
-      "Current",
-      "Operating Point"
+      "Diode",
+      "Boltahe",
+      "Agos ng Kuryente"
     ]
   },
   {
